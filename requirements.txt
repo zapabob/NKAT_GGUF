@@ -2,7 +2,7 @@
 # 電源断対応深層学習フレームワーク依存関係
 
 # 深層学習フレームワーク
-torch>=2.0.0
+torch>=1.9.0
 torchvision>=0.15.0
 torchaudio>=2.0.0
 
@@ -18,12 +18,12 @@ tqdm>=4.62.0
 optuna>=3.0.0
 
 # 開発・テスト
-pytest>=6.0.0
-black>=22.0.0
-flake8>=4.0.0
+pytest>=6.2.0
+black>=21.6.0
+flake8>=3.9.0
 
-# システム監視
-psutil>=5.8.0
+# システム監視・ディスク容量チェック
+psutil>=5.9.6
 GPUtil>=1.4.0
 
 # データセット
@@ -31,3 +31,21 @@ GPUtil>=1.4.0
 
 # 推奨CUDA版（RTX3080対応）
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 
+
+# GUI dependencies
+tkinterdnd2>=0.3.0
+
+# Optional dependencies
+ipywidgets>=7.6.0
+IPython>=7.25.0
+
+# Core dependencies
+torch>=1.9.0
+numpy>=1.21.0
+huggingface_hub>=0.15.0
+tqdm>=4.62.0
+
+# Development dependencies
+pytest>=6.2.0
+black>=21.6.0
+flake8>=3.9.0 

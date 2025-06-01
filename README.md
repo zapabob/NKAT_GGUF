@@ -7,10 +7,12 @@
 - 🧮 **非可換コルモゴロフアーノルド表現理論**による数学的最適化
 - 🚀 **CUDA対応**高速変換（RTX3080最適化）
 - 🔄 **電源断復旧機能**内蔵
-- 📱 **高機能GUI**（ドラッグ&ドロップ対応）
+- 📱 **多様なGUIオプション**（Tkinter・高機能GUI・Colab対応）
 - 🤗 **Hugging Face直接ダウンロード**対応
 - 💾 **64bit精度**演算サポート
 - 📊 **詳細な進捗表示**とログ機能
+- 🗂️ **ファイル履歴記憶機能**
+- 💾 **自動バックアップ機能**
 
 ## 📁 ディレクトリ構造
 
@@ -31,6 +33,8 @@ NKAT_GGUF/
 ├── scripts/          # メインスクリプト
 │   ├── nkat_gguf_colab_main.py       # メインスクリプト
 │   ├── nkat_gguf_advanced_gui.py     # 高機能GUI
+│   ├── nkat_tkinter_gui.py           # Tkinter GUI（新機能）
+│   ├── run_tkinter_gui.py            # Tkinter GUI起動器
 │   ├── huggingface_downloader.py     # HF下载器
 │   ├── nkat_gui_extensions.py        # GUI拡張
 │   └── run_advanced_gui.py           # GUI起動器
@@ -48,33 +52,59 @@ pip install -r requirements.txt
 
 # CUDA確認（オプション）
 py -3 -c "import torch; print(f'CUDA: {torch.cuda.is_available()}')"
+
+# TkinterGUI用の追加依存関係（推奨）
+pip install tkinterdnd2
 ```
 
-### 2. GUI起動
+### 2. GUI起動（複数オプション）
 
+#### 🎯 Tkinter GUI（推奨・新機能）
 ```bash
-# 高機能GUI起動
-py -3 scripts/run_advanced_gui.py
+# ファイル記憶・D&D・自動バックアップ対応
+py -3 scripts/run_tkinter_gui.py
+```
 
-# またはメインスクリプト直接実行
+#### 🎨 高機能GUI
+```bash
+# 高度な機能とカスタマイズ
+py -3 scripts/run_advanced_gui.py
+```
+
+#### 📱 メインスクリプト（Colab対応）
+```bash
+# Colab・ローカル共用
 py -3 scripts/nkat_gguf_colab_main.py
 ```
 
 ### 3. 使用方法
 
+#### 🎯 Tkinter GUI使用方法
+
 1. **ファイル選択**
-   - ドラッグ&ドロップでGGUFファイル選択
-   - Hugging Face URLから直接ダウンロード
+   - 「ファイルを選択」ボタンでGGUFファイル選択
+   - **ドラッグ&ドロップ**でファイル選択（推奨）
+   - **「履歴」ボタン**で過去に使用したファイルを選択
 
-2. **設定調整**
-   - 基本設定：NKAT演算子、グリッドサイズ
-   - 精度設定：64bit精度、CUDA最適化
-   - メモリ設定：最大メモリ、チェックポイント
+2. **Hugging Faceダウンロード**
+   - URLフィールドにHugging Face URLを入力
+   - 「ダウンロード」ボタンで直接取得
 
-3. **変換実行**
+3. **設定調整**
+   - **基本設定**: Kolmogorov-Arnold演算子、グリッドサイズ
+   - **精度・最適化**: 64bit精度、CUDA最適化
+   - **メモリ・バックアップ**: 最大メモリ、自動バックアップ
+
+4. **変換実行**
+   - **自動バックアップ作成**: 元ファイルを自動保護
    - プログレスバーでリアルタイム進捗確認
    - 詳細ログ表示
-   - 自動バックアップ作成
+
+5. **便利機能**
+   - 📁 **ファイル履歴**: 最近使用したファイルを自動記憶
+   - 💾 **自動バックアップ**: 元ファイルと同じ場所に安全保存
+   - 📊 **GPU情報表示**: ハードウェア情報の確認
+   - 📂 **出力フォルダ**: ワンクリックでフォルダを開く
 
 ## ⚙️ 設定プロファイル
 
@@ -107,6 +137,28 @@ py -3 scripts/nkat_gguf_colab_main.py
   "use_64bit_precision": true
 }
 ```
+
+## 🎯 Tkinter GUI新機能詳細
+
+### 📁 ファイル履歴機能
+- 最近使用した最大10ファイルを自動記憶
+- 「履歴」ボタンから簡単選択
+- 無効なファイルは自動除外
+
+### 🗂️ ドラッグ&ドロップ機能
+- GGUFファイルを直接ドラッグ&ドロップ
+- 視覚的なドロップエリア
+- ファイル拡張子の自動チェック
+
+### 💾 自動バックアップ機能
+- 変換前に元ファイルを自動保護
+- 同じディレクトリに `_backup` サフィックス付きで保存
+- バックアップ作成の確認メッセージ
+
+### 📊 進捗管理
+- リアルタイム進捗バー
+- 詳細ステータス表示
+- タイムスタンプ付きログ
 
 ## 🔧 高度な機能
 
@@ -150,13 +202,31 @@ config = NKATConfig(
    py -3 -c "import torch; print(torch.cuda.is_available())"
    ```
 
-2. **メモリ不足**
+2. **Python 3.12でのpsutilエラー**
+   ```bash
+   # 最新版psutilをインストール
+   pip install "psutil>=5.9.6"
+   ```
+   - Python 3.12では古いpsutilバージョンでディスク容量チェックが失敗する既知の問題があります
+   - フォールバック機能として標準ライブラリ`shutil`を使用します
+
+3. **メモリ不足**
    - `max_memory_gb`を減らす
    - `chunk_size_mb`を小さくする
 
-3. **変換エラー**
+4. **変換エラー**
    - チェックポイントから復旧
    - ログファイル確認
+
+5. **ドラッグ&ドロップが効かない**
+   ```bash
+   # tkinterdnd2をインストール
+   pip install tkinterdnd2
+   ```
+
+6. **ファイル履歴が記憶されない**
+   - プロジェクトディレクトリに書き込み権限があるか確認
+   - `file_history.json`ファイルの存在確認
 
 ## 📝 ライセンス
 

@@ -70,3 +70,15 @@ models/*.gguf
 
 # Spec story files
 .specstory/ 
+# Python キャッシュ
+*.pyc
+*.pyo
+*.pyd
+# 一時ファイル
+*.bak
+# OS固有
+# 大容量モデルファイル（オプション）
+# *.gguf
+# バックアップディレクトリ
+emergency_backups/
+integrity_backups/*.gguf
