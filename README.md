@@ -51,7 +51,7 @@ interface = ColabNKATInterface()
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/your-repo/nkat-gguf.git
+git clone https://github.com/zapabob/nkat‗gguf.git
 cd nkat-gguf
 
 # 依存関係をインストール
