@@ -39,7 +39,7 @@ NKAT-GGUFは、非可換コルモゴロフアーノルド表現理論（Non-comm
 !pip install huggingface_hub tqdm ipywidgets numpy torch
 
 # 2. NKATシステムをダウンロード
-!git clone https://github.com/your-repo/nkat-gguf.git
+!git clone https://github.com/zapabob/nkat‗gguf.git
 %cd nkat-gguf
 
 # 3. システムを起動
@@ -51,7 +51,7 @@ interface = ColabNKATInterface()
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/your-repo/nkat-gguf.git
+git clone https://github.com/zapabob/nkat‗gguf.git
 cd nkat-gguf
 
 # 依存関係をインストール
