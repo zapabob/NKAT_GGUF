@@ -1,0 +1,33 @@
+# NKAT Transformer with Power Recovery System
+# 電源断対応深層学習フレームワーク依存関係
+
+# 深層学習フレームワーク
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# 数値計算・データ処理
+numpy>=1.21.0
+matplotlib>=3.5.0
+Pillow>=8.3.0
+
+# 進捗表示・ユーティリティ
+tqdm>=4.62.0
+
+# ハイパーパラメータ最適化
+optuna>=3.0.0
+
+# 開発・テスト
+pytest>=6.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# システム監視
+psutil>=5.8.0
+GPUtil>=1.4.0
+
+# データセット
+# CIFAR-10とMNISTはtorchvisionから自動ダウンロード
+
+# 推奨CUDA版（RTX3080対応）
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 
