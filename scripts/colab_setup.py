@@ -27,44 +27,33 @@ def check_colab_environment():
         return False
 
 def install_dependencies():
-    """必要な依存関係のインストール"""
-    print("📦 依存関係をインストール中...")
+    """必要な依存関係をインストール"""
+    print("📦 依存関係をインストールしています...")
     
-    # 基本パッケージ
     packages = [
-        "numpy>=1.21.0",
+        "torch",
+        "numpy", 
         "tqdm",
         "ipywidgets",
-        "matplotlib",
-        "psutil",
+        "huggingface_hub",  # Hugging Face URL統合
+        "requests",
+        "pathlib"
     ]
     
-    # PyTorchとCUDAサポート
-    pytorch_packages = [
-        "torch>=2.0.0",
-        "torchvision>=0.15.0", 
-        "torchaudio>=2.0.0"
-    ]
+    for package in packages:
+        try:
+            print(f"   📥 {package} をインストール中...")
+            result = subprocess.run([
+                sys.executable, "-m", "pip", "install", package
+            ], capture_output=True, text=True, check=True)
+            print(f"   ✅ {package} インストール完了")
+        except subprocess.CalledProcessError as e:
+            print(f"   ⚠️ {package} インストール警告: {e.stderr}")
+            # 警告だが継続
+        except Exception as e:
+            print(f"   ❌ {package} インストールエラー: {e}")
     
-    try:
-        # 基本パッケージインストール
-        for package in packages:
-            print(f"📥 {package} をインストール中...")
-            subprocess.run([sys.executable, "-m", "pip", "install", "-q", package], check=True)
-        
-        # PyTorchインストール（CUDA付き）
-        print("🎮 PyTorch (CUDA対応) をインストール中...")
-        subprocess.run([
-            sys.executable, "-m", "pip", "install", "-q",
-            "--index-url", "https://download.pytorch.org/whl/cu121"
-        ] + pytorch_packages, check=True)
-        
-        print("✅ 依存関係のインストール完了")
-        return True
-        
-    except subprocess.CalledProcessError as e:
-        print(f"❌ インストールエラー: {e}")
-        return False
+    print("📦 依存関係インストール完了\n")
 
 def setup_workspace():
     """ワークスペースの設定"""
