@@ -1,9 +1,0 @@
-{
-  "enable_ka_operators": true,
-  "ka_grid_size": 32,
-  "lie_algebra_dim": 16,
-  "noncommutative_strength": 0.3,
-  "differential_geometric_scale": 0.05,
-  "spectral_radius_bound": 2.0,
-  "quantization_aware": true
-}

@@ -18,162 +18,180 @@ NKAT（非可換コルモゴロフアーノルド表現理論）を使用したG
 import os
 import sys
 import json
-import time
-import gc
 import struct
-import pickle
 import shutil
-import re
-import requests
-from pathlib import Path
-import numpy as np
-from typing import Dict, List, Optional, Any, Tuple
-from dataclasses import dataclass, asdict
+import time
+import tempfile
+import threading
+import pickle
 import traceback
-import warnings
-warnings.filterwarnings('ignore')
+from pathlib import Path
+from typing import Dict, Any, List, Optional, Tuple, Union
+from dataclasses import dataclass, asdict
+import logging
 
-# Google Colab環境検出とインポート
+# 環境検出
+IN_COLAB = 'google.colab' in sys.modules
+
+# 必要なライブラリのインポート
 try:
-    from google.colab import drive, files
-    import IPython.display as display
-    from IPython.display import clear_output, HTML
-    import ipywidgets as widgets
-    from tqdm.notebook import tqdm
-    COLAB_ENV = True
-    print("✅ Google Colab環境を検出しました")
+    import numpy as np
+    print("✅ NumPy利用可能")
 except ImportError:
-    from tqdm import tqdm
-    COLAB_ENV = False
-    print("⚠️ ローカル環境で実行中")
+    print("❌ NumPy未インストール")
+    sys.exit(1)
 
-# Hugging Face Hub
-try:
-    from huggingface_hub import hf_hub_download, list_repo_files, HfApi
-    HUGGINGFACE_AVAILABLE = True
-    print("✅ Hugging Face Hub利用可能")
-except ImportError:
-    HUGGINGFACE_AVAILABLE = False
-    print("⚠️ Hugging Face Hubがインストールされていません")
-
-# PyTorchとCUDA
 try:
     import torch
-    TORCH_AVAILABLE = True
+    print(f"✅ PyTorch利用可能: {torch.__version__}")
     if torch.cuda.is_available():
-        print(f"🎮 CUDA利用可能: {torch.cuda.get_device_name(0)}")
-        print(f"💾 VRAM: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f}GB")
+        gpu_name = torch.cuda.get_device_name(0)
+        vram_gb = torch.cuda.get_device_properties(0).total_memory / 1024**3
+        print(f"🎮 CUDA利用可能: {gpu_name}")
+        print(f"💾 VRAM: {vram_gb:.1f}GB")
     else:
-        print("⚠️ CUDAが利用できません")
+        print("⚠️ CUDA利用不可 - CPU動作")
 except ImportError:
-    TORCH_AVAILABLE = False
-    print("⚠️ PyTorchがインストールされていません")
+    print("❌ PyTorch未インストール")
+    sys.exit(1)
 
-class HuggingFaceDownloader:
-    """Hugging Face URLからGGUFファイルダウンロード"""
+try:
+    from huggingface_hub import HfApi, hf_hub_download, list_repo_files
+    from huggingface_hub.utils import RepositoryNotFoundError, EntryNotFoundError
+    print("✅ Hugging Face Hub利用可能")
+except ImportError:
+    print("❌ Hugging Face Hub未インストール")
+    sys.exit(1)
+
+# Colab環境での追加インポート
+if IN_COLAB:
+    try:
+        from google.colab import drive, files
+        import ipywidgets as widgets
+        from IPython.display import display, HTML, clear_output
+        print("✅ Colab環境設定完了")
+    except ImportError:
+        print("❌ Colab環境設定エラー")
+        sys.exit(1)
+else:
+    print("⚠️ ローカル環境で実行中")
+    # ローカル環境用のモック
+    class MockDisplay:
+        @staticmethod 
+        def display(content):
+            if hasattr(content, 'value'):
+                print(content.value)
+            else:
+                print(str(content))
     
-    def __init__(self, download_dir: str = "/content/hf_downloads"):
-        self.download_dir = Path(download_dir)
-        self.download_dir.mkdir(exist_ok=True)
-        self.api = HfApi() if HUGGINGFACE_AVAILABLE else None
+    class MockHTML:
+        def __init__(self, value):
+            self.value = value
     
-    def parse_hf_url(self, url: str) -> Tuple[Optional[str], Optional[str]]:
-        """Hugging Face URLをパース"""
-        # URL形式: https://huggingface.co/username/repo-name
-        # または: https://huggingface.co/username/repo-name/blob/main/filename.gguf
-        patterns = [
-            r'https://huggingface\.co/([^/]+/[^/]+)',
-            r'huggingface\.co/([^/]+/[^/]+)',
-            r'^([^/]+/[^/]+)$'  # 直接のrepo名
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, url.strip())
-            if match:
-                repo_id = match.group(1)
-                # ファイル名を抽出（URLに含まれている場合）
-                filename_match = re.search(r'/blob/[^/]+/(.+\.gguf)', url)
-                filename = filename_match.group(1) if filename_match else None
-                return repo_id, filename
-        
-        return None, None
+    class MockLayout:
+        def __init__(self, **kwargs):
+            self.kwargs = kwargs
     
-    def find_gguf_files(self, repo_id: str) -> List[str]:
-        """リポジトリ内のGGUFファイルを検索"""
-        if not HUGGINGFACE_AVAILABLE:
-            raise ImportError("huggingface_hub が必要です")
+    class MockWidget:
+        def __init__(self, **kwargs):
+            self.kwargs = kwargs
+            self.value = kwargs.get('value', '')
+            self.description = kwargs.get('description', '')
+            self.disabled = kwargs.get('disabled', False)
+            self.button_style = kwargs.get('button_style', '')
+            self.layout = kwargs.get('layout', None)
+            self.children = kwargs.get('children', [])
         
-        try:
-            files = list_repo_files(repo_id)
-            gguf_files = [f for f in files if f.endswith('.gguf')]
-            return sorted(gguf_files)
-        except Exception as e:
-            print(f"❌ リポジトリアクセスエラー: {e}")
-            return []
+        def on_click(self, callback):
+            pass
+        
+        def observe(self, callback, names=None):
+            pass
+        
+        def set_title(self, index, title):
+            pass
     
-    def download_gguf(self, repo_id: str, filename: str = None, progress_callback=None) -> Optional[str]:
-        """GGUFファイルをダウンロード"""
-        if not HUGGINGFACE_AVAILABLE:
-            raise ImportError("huggingface_hub が必要です")
+    class MockWidgets:
+        def __init__(self):
+            pass
         
-        try:
-            if progress_callback:
-                progress_callback(5, f"🔍 リポジトリ {repo_id} を検索中...")
-            
-            # ファイル名が指定されていない場合、GGUFファイルを検索
-            if not filename:
-                gguf_files = self.find_gguf_files(repo_id)
-                if not gguf_files:
-                    raise ValueError(f"リポジトリ {repo_id} にGGUFファイルが見つかりません")
-                
-                # 複数ある場合は最初のものを選択（後でUI選択機能を追加可能）
-                filename = gguf_files[0]
-                if len(gguf_files) > 1:
-                    print(f"⚠️ 複数のGGUFファイルが見つかりました。{filename} をダウンロードします")
-                    print(f"利用可能ファイル: {', '.join(gguf_files)}")
-            
-            if progress_callback:
-                progress_callback(15, f"📥 {filename} をダウンロード中...")
-            
-            # ダウンロード実行
-            downloaded_path = hf_hub_download(
-                repo_id=repo_id,
-                filename=filename,
-                local_dir=str(self.download_dir),
-                local_dir_use_symlinks=False
-            )
-            
-            if progress_callback:
-                progress_callback(80, f"✅ ダウンロード完了: {filename}")
-            
-            print(f"✅ ダウンロード完了: {downloaded_path}")
-            return downloaded_path
-            
-        except Exception as e:
-            error_msg = f"❌ ダウンロードエラー: {e}"
-            print(error_msg)
-            if progress_callback:
-                progress_callback(0, error_msg)
-            return None
+        def Button(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def Text(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def FileUpload(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def VBox(self, children=None):
+            return MockWidget(children=children or [])
+        
+        def HBox(self, children=None):
+            return MockWidget(children=children or [])
+        
+        def HTML(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def IntProgress(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def Output(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def Checkbox(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def IntSlider(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def FloatSlider(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def Accordion(self, **kwargs):
+            return MockWidget(**kwargs)
+        
+        def Layout(self, **kwargs):
+            return MockLayout(**kwargs)
     
-    def get_model_info(self, repo_id: str) -> Dict[str, Any]:
-        """モデル情報を取得"""
-        if not HUGGINGFACE_AVAILABLE:
-            return {}
+    display = MockDisplay()
+    HTML = MockHTML
+    widgets = MockWidgets()
+
+try:
+    from tqdm import tqdm
+    print("✅ tqdm利用可能")
+except ImportError:
+    print("⚠️ tqdm未インストール - 基本の進捗表示を使用")
+    class tqdm:
+        def __init__(self, iterable=None, total=None, desc=None, **kwargs):
+            self.iterable = iterable
+            self.total = total
+            self.desc = desc
+            self.n = 0
         
-        try:
-            model_info = self.api.model_info(repo_id)
-            return {
-                'model_name': model_info.modelId,
-                'downloads': getattr(model_info, 'downloads', 0),
-                'likes': getattr(model_info, 'likes', 0),
-                'tags': getattr(model_info, 'tags', []),
-                'library_name': getattr(model_info, 'library_name', 'unknown'),
-                'pipeline_tag': getattr(model_info, 'pipeline_tag', 'unknown')
-            }
-        except Exception as e:
-            print(f"⚠️ モデル情報取得エラー: {e}")
-            return {}
+        def __iter__(self):
+            if self.iterable:
+                for item in self.iterable:
+                    yield item
+                    self.update(1)
+        
+        def update(self, n):
+            self.n += n
+            if self.total:
+                percent = (self.n / self.total) * 100
+                print(f"\r{self.desc}: {percent:.1f}%", end='', flush=True)
+        
+        def close(self):
+            print()
+
+# 内部モジュールのインポート
+try:
+    from huggingface_downloader import HuggingFaceDownloader
+except ImportError:
+    # 相対インポートを試行
+    sys.path.append(os.path.dirname(__file__))
+    from huggingface_downloader import HuggingFaceDownloader
 
 @dataclass
 class NKATConfig:
@@ -263,7 +281,7 @@ class NKATGGUFConverter:
         
     def _init_cuda(self):
         """CUDA初期化"""
-        if TORCH_AVAILABLE and torch.cuda.is_available() and self.config.enable_cuda_optimization:
+        if torch.cuda.is_available() and self.config.enable_cuda_optimization:
             self.device = torch.device('cuda')
             torch.cuda.empty_cache()
             print(f"🚀 CUDA最適化有効: {torch.cuda.get_device_name(0)}")
@@ -1005,13 +1023,6 @@ class ColabNKATInterface:
     
     def _download_from_hf(self, b):
         """Hugging FaceからGGUFファイルをダウンロード"""
-        if not HUGGINGFACE_AVAILABLE:
-            with self.log_output:
-                print("❌ huggingface_hub がインストールされていません")
-                print("以下のコマンドでインストールしてください:")
-                print("!pip install huggingface_hub")
-            return
-        
         url = self.hf_url_input.value.strip()
         if not url:
             return
@@ -1172,7 +1183,7 @@ class ColabNKATInterface:
                 self.status_text.value = "✅ 変換完了！ダウンロード中..."
                 
                 # ファイルダウンロード（Colab環境の場合）
-                if COLAB_ENV:
+                if IN_COLAB:
                     print(f"\n📥 ファイルをダウンロードしています...")
                     try:
                         files.download(str(output_path))
@@ -1212,7 +1223,7 @@ def main():
     print("🚀 NKAT-GGUF変換システムを開始します")
     
     # システム情報表示
-    if TORCH_AVAILABLE and torch.cuda.is_available():
+    if torch.cuda.is_available():
         print(f"🎮 GPU: {torch.cuda.get_device_name(0)}")
         print(f"💾 VRAM: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f}GB")
     
