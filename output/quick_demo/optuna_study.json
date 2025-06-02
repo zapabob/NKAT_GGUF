@@ -1,0 +1,12 @@
+{
+  "best_trial": {
+    "number": 0,
+    "value": -1000.0,
+    "params": {
+      "theta_rank": 6,
+      "theta_gamma": 0.9500000000000001
+    }
+  },
+  "n_trials": 12,
+  "direction": "MAXIMIZE"
+}

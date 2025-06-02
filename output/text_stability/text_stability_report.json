@@ -1,0 +1,3995 @@
+{
+  "timestamp": "2025-06-02T12:51:50.892172",
+  "model_path": "models\\\\test\\\\test_large_NKAT_real.gguf",
+  "category_results": {
+    "narrative": [
+      {
+        "config": {
+          "gamma": 0.9,
+          "rank": 4
+        },
+        "result": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.888466413181242,
+                "min_similarity": 0.8288973384030418,
+                "max_similarity": 1.0,
+                "std_similarity": 0.07892723689196585,
+                "similarity_scores": [
+                  0.8288973384030418,
+                  1.0,
+                  0.8365019011406845
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3888888888888889,
+                "avg_length": 131.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8864920433741725
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The old man walked slowly down the street the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8203112829199787,
+                "min_similarity": 0.7781818181818182,
+                "max_similarity": 0.8695652173913043,
+                "std_similarity": 0.037645716573550744,
+                "similarity_scores": [
+                  0.7781818181818182,
+                  0.8695652173913043,
+                  0.8131868131868132
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4074074074074074,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8075508851856679
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through revolutionary optimization methods.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8203112829199787,
+                "min_similarity": 0.7781818181818182,
+                "max_similarity": 0.8695652173913043,
+                "std_similarity": 0.037645716573550744,
+                "similarity_scores": [
+                  0.7781818181818182,
+                  0.8695652173913043,
+                  0.8131868131868132
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4117647058823529,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8075508851856679
+            }
+          ],
+          "avg_stability": 0.833864604581836
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.93,
+          "rank": 6
+        },
+        "result": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8151857168711101,
+                "min_similarity": 0.8089887640449438,
+                "max_similarity": 0.8257575757575758,
+                "std_similarity": 0.007512350446243337,
+                "similarity_scores": [
+                  0.8108108108108109,
+                  0.8089887640449438,
+                  0.8257575757575758
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.46296296296296297,
+                "avg_length": 131.66666666666666,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7264210499229226
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently through creative problem-solving methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8154272780359738,
+                "min_similarity": 0.7781818181818182,
+                "max_similarity": 0.8695652173913043,
+                "std_similarity": 0.03917268019545674,
+                "similarity_scores": [
+                  0.8695652173913043,
+                  0.7781818181818182,
+                  0.7985347985347986
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4074074074074074,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8027428537109698
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently employing versatile computational strategies.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7995393029805934,
+                "min_similarity": 0.7769784172661871,
+                "max_similarity": 0.8231046931407943,
+                "std_similarity": 0.018844364381273387,
+                "similarity_scores": [
+                  0.7769784172661871,
+                  0.8231046931407943,
+                  0.7985347985347986
+                ]
+              },
+              "variance": {
+                "length_variance": 4.666666666666667,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.45098039215686275,
+                "avg_length": 138.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7622274688414991
+            }
+          ],
+          "avg_stability": 0.7637971241584638
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 6
+        },
+        "result": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.870722433460076,
+                "min_similarity": 0.8060836501901141,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09141304395567534,
+                "similarity_scores": [
+                  0.8060836501901141,
+                  0.8060836501901141,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3888888888888889,
+                "avg_length": 131.66666666666666,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8687874947190537
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The old man walked slowly down the street the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8327272727272726,
+                "min_similarity": 0.7490909090909091,
+                "max_similarity": 1.0,
+                "std_similarity": 0.11827967976211338,
+                "similarity_scores": [
+                  0.7490909090909091,
+                  0.7490909090909091,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.37037037037037035,
+                "avg_length": 137.0,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8160727272727272
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8641975308641975,
+                "min_similarity": 0.7851851851851852,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09645444436851658,
+                "similarity_scores": [
+                  0.7851851851851852,
+                  1.0,
+                  0.8074074074074075
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.37254901960784315,
+                "avg_length": 135.66666666666666,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8334705075445815
+            }
+          ],
+          "avg_stability": 0.8394435765121209
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.97,
+          "rank": 8
+        },
+        "result": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 1.0,
+                "min_similarity": 1.0,
+                "max_similarity": 1.0,
+                "std_similarity": 0.0,
+                "similarity_scores": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3157894736842105,
+                "avg_length": 134.0,
+                "avg_word_count": 19.0
+              },
+              "stability_score": 1.0
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently while adapting to various conditions.",
+                "The old man walked slowly down the street the advanced system processes information efficiently and responds to different requirements.",
+                "The old man walked slowly down the street the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8246492531645714,
+                "min_similarity": 0.8120300751879699,
+                "max_similarity": 0.8484848484848485,
+                "std_similarity": 0.01686403742785886,
+                "similarity_scores": [
+                  0.8134328358208955,
+                  0.8484848484848485,
+                  0.8120300751879699
+                ]
+              },
+              "variance": {
+                "length_variance": 2.6666666666666665,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43859649122807015,
+                "avg_length": 133.0,
+                "avg_word_count": 19.0
+              },
+              "stability_score": 0.8026586064135162
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8518518518518517,
+                "min_similarity": 0.7777777777777778,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10475656017578482,
+                "similarity_scores": [
+                  1.0,
+                  0.7777777777777778,
+                  0.7777777777777778
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3888888888888889,
+                "avg_length": 136.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7306995884773662
+            }
+          ],
+          "avg_stability": 0.8444527316302941
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 4
+        },
+        "result": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8286706075756864,
+                "min_similarity": 0.7924528301886793,
+                "max_similarity": 0.8646616541353384,
+                "std_similarity": 0.029479564889269262,
+                "similarity_scores": [
+                  0.8288973384030418,
+                  0.7924528301886793,
+                  0.8646616541353384
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.42592592592592593,
+                "avg_length": 132.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8157801759022869
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through creative problem-solving methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The old man walked slowly down the street the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7947344825769883,
+                "min_similarity": 0.7697841726618705,
+                "max_similarity": 0.8158844765342961,
+                "std_similarity": 0.01901124764127602,
+                "similarity_scores": [
+                  0.7985347985347986,
+                  0.7697841726618705,
+                  0.8158844765342961
+                ]
+              },
+              "variance": {
+                "length_variance": 4.666666666666667,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 138.0,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7576468733900622
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently employing versatile computational strategies.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7982016009252614,
+                "min_similarity": 0.7769784172661871,
+                "max_similarity": 0.8102189781021898,
+                "std_similarity": 0.015050888698302614,
+                "similarity_scores": [
+                  0.8102189781021898,
+                  0.7769784172661871,
+                  0.8074074074074075
+                ]
+              },
+              "variance": {
+                "length_variance": 10.666666666666666,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.45098039215686275,
+                "avg_length": 137.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7130600968265668
+            }
+          ],
+          "avg_stability": 0.7621623820396386
+        }
+      }
+    ],
+    "technical": [
+      {
+        "config": {
+          "gamma": 0.9,
+          "rank": 4
+        },
+        "result": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through creative problem-solving methods.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8144369451856502,
+                "min_similarity": 0.7971014492753623,
+                "max_similarity": 0.8447653429602888,
+                "std_similarity": 0.021518570498439703,
+                "similarity_scores": [
+                  0.8014440433212996,
+                  0.8447653429602888,
+                  0.7971014492753623
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 138.33333333333334,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8126270853074599
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8769987699876999,
+                "min_similarity": 0.8118081180811808,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08702717319217088,
+                "similarity_scores": [
+                  0.8191881918819188,
+                  1.0,
+                  0.8118081180811808
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 135.0,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8594587945879458
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8311662277338844,
+                "min_similarity": 0.8184818481848185,
+                "max_similarity": 0.84,
+                "std_similarity": 0.009197032011141163,
+                "similarity_scores": [
+                  0.835016835016835,
+                  0.8184818481848185,
+                  0.84
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 150.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7812962540698513
+            }
+          ],
+          "avg_stability": 0.8177940446550857
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.93,
+          "rank": 6
+        },
+        "result": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through creative problem-solving methods.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8661800486618004,
+                "min_similarity": 0.7883211678832117,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09504635029014406,
+                "similarity_scores": [
+                  0.7883211678832117,
+                  1.0,
+                  0.8102189781021898
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 137.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8353825358204919
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8159250269454542,
+                "min_similarity": 0.8115942028985508,
+                "max_similarity": 0.8243727598566308,
+                "std_similarity": 0.005974087569399102,
+                "similarity_scores": [
+                  0.8115942028985508,
+                  0.8243727598566308,
+                  0.8118081180811808
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888888,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4888888888888889,
+                "avg_length": 137.66666666666666,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.727079857344727
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently employing versatile computational strategies.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8318727632663868,
+                "min_similarity": 0.8278145695364238,
+                "max_similarity": 0.835016835016835,
+                "std_similarity": 0.0030105227959779687,
+                "similarity_scores": [
+                  0.8327868852459016,
+                  0.835016835016835,
+                  0.8278145695364238
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 150.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7412910623773802
+            }
+          ],
+          "avg_stability": 0.7679178185141997
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 6
+        },
+        "result": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8647342995169082,
+                "min_similarity": 0.7971014492753623,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09564729407354267,
+                "similarity_scores": [
+                  1.0,
+                  0.7971014492753623,
+                  0.7971014492753623
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 138.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8647342995169082
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7991986231222761,
+                "min_similarity": 0.7741935483870968,
+                "max_similarity": 0.8118081180811808,
+                "std_similarity": 0.01768147357754756,
+                "similarity_scores": [
+                  0.7741935483870968,
+                  0.8118081180811808,
+                  0.8115942028985508
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4888888888888889,
+                "avg_length": 137.66666666666666,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.7121747730489616
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8977777777777778,
+                "min_similarity": 0.8466666666666667,
+                "max_similarity": 1.0,
+                "std_similarity": 0.07228202652129152,
+                "similarity_scores": [
+                  1.0,
+                  0.8466666666666667,
+                  0.8466666666666667
+                ]
+              },
+              "variance": {
+                "length_variance": 8.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3958333333333333,
+                "avg_length": 151.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8259555555555556
+            }
+          ],
+          "avg_stability": 0.8009548760404751
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.97,
+          "rank": 8
+        },
+        "result": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with flexible approach to problems.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.854014598540146,
+                "min_similarity": 0.781021897810219,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10322726732650327,
+                "similarity_scores": [
+                  0.781021897810219,
+                  0.781021897810219,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4117647058823529,
+                "avg_length": 135.66666666666666,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7325547445255475
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with flexible approach to problems.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8774509803921569,
+                "min_similarity": 0.8161764705882353,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08665524279246907,
+                "similarity_scores": [
+                  0.8161764705882353,
+                  0.8161764705882353,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7526579520697168
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with flexible approach to problems.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8881431767337808,
+                "min_similarity": 0.8322147651006712,
+                "max_similarity": 1.0,
+                "std_similarity": 0.07909471825352879,
+                "similarity_scores": [
+                  0.8322147651006712,
+                  0.8322147651006712,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 150.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7618294804871987
+            }
+          ],
+          "avg_stability": 0.7490140590274876
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 4
+        },
+        "result": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8864734299516909,
+                "min_similarity": 0.8260869565217391,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08032989926722651,
+                "similarity_scores": [
+                  0.8260869565217391,
+                  1.0,
+                  0.8333333333333334
+                ]
+              },
+              "variance": {
+                "length_variance": 8.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 137.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8155555555555556
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8628841607565012,
+                "min_similarity": 0.7943262411347518,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09695553973716253,
+                "similarity_scores": [
+                  0.7943262411347518,
+                  0.7943262411347518,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.8888888888888888,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 141.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8552140793275546
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently employing versatile computational strategies.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8852097130242825,
+                "min_similarity": 0.8278145695364238,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08116899033487962,
+                "similarity_scores": [
+                  0.8278145695364238,
+                  0.8278145695364238,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 149.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7593132205052734
+            }
+          ],
+          "avg_stability": 0.8100276184627945
+        }
+      }
+    ],
+    "creative": [
+      {
+        "config": {
+          "gamma": 0.9,
+          "rank": 4
+        },
+        "result": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently employing versatile computational strategies.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8590203106332138,
+                "min_similarity": 0.7885304659498208,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09968769436082749,
+                "similarity_scores": [
+                  0.7885304659498208,
+                  0.7885304659498208,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 5.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3958333333333333,
+                "avg_length": 138.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8112969600424798
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Colors danced across the sky as the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Colors danced across the sky as the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8036403840192204,
+                "min_similarity": 0.7294117647058823,
+                "max_similarity": 0.859375,
+                "std_similarity": 0.05464510805477503,
+                "similarity_scores": [
+                  0.7294117647058823,
+                  0.859375,
+                  0.8221343873517787
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4375,
+                "avg_length": 127.33333333333333,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7911393113789215
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Music filled the air with melodies that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8324695946500248,
+                "min_similarity": 0.7970479704797048,
+                "max_similarity": 0.8676470588235294,
+                "std_similarity": 0.02882247420934832,
+                "similarity_scores": [
+                  0.7970479704797048,
+                  0.8327137546468402,
+                  0.8676470588235294
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 135.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8195200676221355
+            }
+          ],
+          "avg_stability": 0.807318779681179
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.93,
+          "rank": 6
+        },
+        "result": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8103627912349639,
+                "min_similarity": 0.779783393501805,
+                "max_similarity": 0.8321167883211679,
+                "std_similarity": 0.022257760081438,
+                "similarity_scores": [
+                  0.779783393501805,
+                  0.8321167883211679,
+                  0.8191881918819188
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 137.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.761741023760866
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 1.0,
+                "min_similarity": 1.0,
+                "max_similarity": 1.0,
+                "std_similarity": 0.0,
+                "similarity_scores": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3125,
+                "avg_length": 126.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 1.0
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently through creative problem-solving methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8177277371942755,
+                "min_similarity": 0.7453874538745388,
+                "max_similarity": 0.8676470588235294,
+                "std_similarity": 0.0523696947538389,
+                "similarity_scores": [
+                  0.8676470588235294,
+                  0.8401486988847584,
+                  0.7453874538745388
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 135.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8050075279490312
+            }
+          ],
+          "avg_stability": 0.8555828505699656
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 6
+        },
+        "result": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 1.0,
+                "min_similarity": 1.0,
+                "max_similarity": 1.0,
+                "std_similarity": 0.0,
+                "similarity_scores": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3125,
+                "avg_length": 134.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 1.0
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently employing versatile computational strategies.",
+                "Colors danced across the sky as the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Colors danced across the sky as the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7991170975422944,
+                "min_similarity": 0.7846153846153846,
+                "max_similarity": 0.8174603174603174,
+                "std_similarity": 0.013681259332120856,
+                "similarity_scores": [
+                  0.7846153846153846,
+                  0.7952755905511811,
+                  0.8174603174603174
+                ]
+              },
+              "variance": {
+                "length_variance": 11.555555555555555,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 127.66666666666667,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7067746773818515
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently employing versatile computational strategies.",
+                "Music filled the air with melodies that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Music filled the air with melodies that the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8143381891809565,
+                "min_similarity": 0.8074074074074075,
+                "max_similarity": 0.8205128205128205,
+                "std_similarity": 0.005376912731529635,
+                "similarity_scores": [
+                  0.8205128205128205,
+                  0.8074074074074075,
+                  0.8150943396226416
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.45098039215686275,
+                "avg_length": 134.66666666666666,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7256658085812523
+            }
+          ],
+          "avg_stability": 0.8108134953210345
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.97,
+          "rank": 8
+        },
+        "result": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently while adapting to various conditions.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8832116788321168,
+                "min_similarity": 0.8248175182481752,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08258181386120264,
+                "similarity_scores": [
+                  0.8248175182481752,
+                  0.8248175182481752,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 8.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4117647058823529,
+                "avg_length": 138.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8125547445255475
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently with flexible approach to problems.",
+                "Colors danced across the sky as the advanced system processes information efficiently with flexible approach to problems.",
+                "Colors danced across the sky as the advanced system processes information efficiently and responds to different requirements."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8699186991869919,
+                "min_similarity": 0.8048780487804879,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09198136991044518,
+                "similarity_scores": [
+                  1.0,
+                  0.8048780487804879,
+                  0.8048780487804879
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.39215686274509803,
+                "avg_length": 122.33333333333333,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8389882565492323
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Music filled the air with melodies that the advanced system processes information efficiently while adapting to various conditions.",
+                "Music filled the air with melodies that the advanced system processes information efficiently and responds to different requirements."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8179079350721142,
+                "min_similarity": 0.8106060606060606,
+                "max_similarity": 0.8222222222222222,
+                "std_similarity": 0.005191535492253771,
+                "similarity_scores": [
+                  0.8208955223880597,
+                  0.8222222222222222,
+                  0.8106060606060606
+                ]
+              },
+              "variance": {
+                "length_variance": 6.222222222222222,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.46296296296296297,
+                "avg_length": 133.66666666666666,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7670158857787382
+            }
+          ],
+          "avg_stability": 0.8061862956178394
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 4
+        },
+        "result": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7754354528446074,
+                "min_similarity": 0.7509025270758123,
+                "max_similarity": 0.7956204379562044,
+                "std_similarity": 0.018513082389588868,
+                "similarity_scores": [
+                  0.779783393501805,
+                  0.7509025270758123,
+                  0.7956204379562044
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 138.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7599267437877152
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently through creative problem-solving methods.",
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Colors danced across the sky as the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8087658070474566,
+                "min_similarity": 0.782608695652174,
+                "max_similarity": 0.859375,
+                "std_similarity": 0.03579287256953035,
+                "similarity_scores": [
+                  0.782608695652174,
+                  0.859375,
+                  0.7843137254901961
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4375,
+                "avg_length": 127.33333333333333,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7961850056044961
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Music filled the air with melodies that the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7704466596904775,
+                "min_similarity": 0.7453874538745388,
+                "max_similarity": 0.7910447761194029,
+                "std_similarity": 0.01890456307406644,
+                "similarity_scores": [
+                  0.7453874538745388,
+                  0.7749077490774908,
+                  0.7910447761194029
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.47058823529411764,
+                "avg_length": 135.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.755037726496668
+            }
+          ],
+          "avg_stability": 0.7703831586296265
+        }
+      }
+    ],
+    "analytical": [
+      {
+        "config": {
+          "gamma": 0.9,
+          "rank": 4
+        },
+        "result": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The research data indicates that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The research data indicates that the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8573281452658884,
+                "min_similarity": 0.7859922178988327,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10088423596695231,
+                "similarity_scores": [
+                  1.0,
+                  0.7859922178988327,
+                  0.7859922178988327
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 128.0,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8401815823605706
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7977872592104802,
+                "min_similarity": 0.7472527472527473,
+                "max_similarity": 0.8296296296296296,
+                "std_similarity": 0.03613433089650806,
+                "similarity_scores": [
+                  0.8296296296296296,
+                  0.7472527472527473,
+                  0.8164794007490637
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5238095238095238,
+                "avg_length": 135.0,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.7499200236578514
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.801401965387435,
+                "min_similarity": 0.7804878048780488,
+                "max_similarity": 0.8222996515679443,
+                "std_similarity": 0.017069618907237197,
+                "similarity_scores": [
+                  0.8014184397163121,
+                  0.7804878048780488,
+                  0.8222996515679443
+                ]
+              },
+              "variance": {
+                "length_variance": 5.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 142.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.756879633977022
+            }
+          ],
+          "avg_stability": 0.7823270799984813
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.93,
+          "rank": 6
+        },
+        "result": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The research data indicates that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The research data indicates that the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8233289153142028,
+                "min_similarity": 0.7859922178988327,
+                "max_similarity": 0.8604651162790697,
+                "std_similarity": 0.030403763992947513,
+                "similarity_scores": [
+                  0.7859922178988327,
+                  0.8235294117647058,
+                  0.8604651162790697
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 128.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8105215766315375
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8163024175940233,
+                "min_similarity": 0.8059701492537313,
+                "max_similarity": 0.8339483394833949,
+                "std_similarity": 0.012538259536548727,
+                "similarity_scores": [
+                  0.8089887640449438,
+                  0.8339483394833949,
+                  0.8059701492537313
+                ]
+              },
+              "variance": {
+                "length_variance": 2.8888888888888893,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5238095238095238,
+                "avg_length": 134.33333333333334,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.7927203477524183
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently through creative problem-solving methods.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8230876542281701,
+                "min_similarity": 0.8014184397163121,
+                "max_similarity": 0.8480565371024735,
+                "std_similarity": 0.019182351097243224,
+                "similarity_scores": [
+                  0.8197879858657244,
+                  0.8014184397163121,
+                  0.8480565371024735
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 141.33333333333334,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8212585705521075
+            }
+          ],
+          "avg_stability": 0.8081668316453544
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 6
+        },
+        "result": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The research data indicates that the advanced system processes information efficiently through creative problem-solving methods.",
+                "The research data indicates that the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8154857780593009,
+                "min_similarity": 0.7859922178988327,
+                "max_similarity": 0.8604651162790697,
+                "std_similarity": 0.03231521973585326,
+                "similarity_scores": [
+                  0.8,
+                  0.7859922178988327,
+                  0.8604651162790697
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 128.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.802800443733934
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently through creative problem-solving methods.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8140726285742043,
+                "min_similarity": 0.7765567765567766,
+                "max_similarity": 0.8686131386861314,
+                "std_similarity": 0.03946283221419606,
+                "similarity_scores": [
+                  0.8686131386861314,
+                  0.7970479704797048,
+                  0.7765567765567766
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.47619047619047616,
+                "avg_length": 136.33333333333334,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.8014092765741611
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8805256869772999,
+                "min_similarity": 0.8172043010752689,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08453177037662474,
+                "similarity_scores": [
+                  0.8172043010752689,
+                  1.0,
+                  0.8243727598566308
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 139.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8629151732377539
+            }
+          ],
+          "avg_stability": 0.822374964515283
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.97,
+          "rank": 8
+        },
+        "result": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently and responds to different requirements.",
+                "The research data indicates that the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "The research data indicates that the advanced system processes information efficiently and responds to different requirements."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8697916666666666,
+                "min_similarity": 0.796875,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09229190180556954,
+                "similarity_scores": [
+                  0.796875,
+                  1.0,
+                  0.8125
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3958333333333333,
+                "avg_length": 127.33333333333333,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8388657407407407
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with flexible approach to problems.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.86318407960199,
+                "min_similarity": 0.7761194029850746,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09793542131855486,
+                "similarity_scores": [
+                  0.7761194029850746,
+                  1.0,
+                  0.8134328358208955
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 135.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.7404201216141514
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8571428571428571,
+                "min_similarity": 0.7857142857142857,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10101525445522108,
+                "similarity_scores": [
+                  1.0,
+                  0.7857142857142857,
+                  0.7857142857142857
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 141.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7352380952380951
+            }
+          ],
+          "avg_stability": 0.771507985864329
+        }
+      },
+      {
+        "config": {
+          "gamma": 0.95,
+          "rank": 4
+        },
+        "result": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently employing versatile computational strategies.",
+                "The research data indicates that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The research data indicates that the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8481338481338482,
+                "min_similarity": 0.7722007722007722,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10738558581726204,
+                "similarity_scores": [
+                  0.7722007722007722,
+                  0.7722007722007722,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 5.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 128.66666666666666,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.801015301015301
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently employing versatile computational strategies.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8725490196078431,
+                "min_similarity": 0.8088235294117647,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09012145250416781,
+                "similarity_scores": [
+                  0.8088235294117647,
+                  0.8088235294117647,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.42857142857142855,
+                "avg_length": 134.66666666666666,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.7484531590413943
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8180030263258237,
+                "min_similarity": 0.8070175438596491,
+                "max_similarity": 0.8297872340425532,
+                "std_similarity": 0.009312828760219783,
+                "similarity_scores": [
+                  0.8172043010752689,
+                  0.8297872340425532,
+                  0.8070175438596491
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 141.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7689228447462743
+            }
+          ],
+          "avg_stability": 0.7727971016009899
+        }
+      }
+    ]
+  },
+  "configuration_analysis": [
+    {
+      "config": {
+        "gamma": 0.9,
+        "rank": 4
+      },
+      "categories": {
+        "narrative": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.888466413181242,
+                "min_similarity": 0.8288973384030418,
+                "max_similarity": 1.0,
+                "std_similarity": 0.07892723689196585,
+                "similarity_scores": [
+                  0.8288973384030418,
+                  1.0,
+                  0.8365019011406845
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3888888888888889,
+                "avg_length": 131.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8864920433741725
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The old man walked slowly down the street the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8203112829199787,
+                "min_similarity": 0.7781818181818182,
+                "max_similarity": 0.8695652173913043,
+                "std_similarity": 0.037645716573550744,
+                "similarity_scores": [
+                  0.7781818181818182,
+                  0.8695652173913043,
+                  0.8131868131868132
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4074074074074074,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8075508851856679
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through revolutionary optimization methods.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8203112829199787,
+                "min_similarity": 0.7781818181818182,
+                "max_similarity": 0.8695652173913043,
+                "std_similarity": 0.037645716573550744,
+                "similarity_scores": [
+                  0.7781818181818182,
+                  0.8695652173913043,
+                  0.8131868131868132
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4117647058823529,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8075508851856679
+            }
+          ],
+          "avg_stability": 0.833864604581836
+        },
+        "technical": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through creative problem-solving methods.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8144369451856502,
+                "min_similarity": 0.7971014492753623,
+                "max_similarity": 0.8447653429602888,
+                "std_similarity": 0.021518570498439703,
+                "similarity_scores": [
+                  0.8014440433212996,
+                  0.8447653429602888,
+                  0.7971014492753623
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 138.33333333333334,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8126270853074599
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8769987699876999,
+                "min_similarity": 0.8118081180811808,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08702717319217088,
+                "similarity_scores": [
+                  0.8191881918819188,
+                  1.0,
+                  0.8118081180811808
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 135.0,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8594587945879458
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8311662277338844,
+                "min_similarity": 0.8184818481848185,
+                "max_similarity": 0.84,
+                "std_similarity": 0.009197032011141163,
+                "similarity_scores": [
+                  0.835016835016835,
+                  0.8184818481848185,
+                  0.84
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 150.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7812962540698513
+            }
+          ],
+          "avg_stability": 0.8177940446550857
+        },
+        "creative": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently employing versatile computational strategies.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8590203106332138,
+                "min_similarity": 0.7885304659498208,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09968769436082749,
+                "similarity_scores": [
+                  0.7885304659498208,
+                  0.7885304659498208,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 5.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3958333333333333,
+                "avg_length": 138.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8112969600424798
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Colors danced across the sky as the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Colors danced across the sky as the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8036403840192204,
+                "min_similarity": 0.7294117647058823,
+                "max_similarity": 0.859375,
+                "std_similarity": 0.05464510805477503,
+                "similarity_scores": [
+                  0.7294117647058823,
+                  0.859375,
+                  0.8221343873517787
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4375,
+                "avg_length": 127.33333333333333,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7911393113789215
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Music filled the air with melodies that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8324695946500248,
+                "min_similarity": 0.7970479704797048,
+                "max_similarity": 0.8676470588235294,
+                "std_similarity": 0.02882247420934832,
+                "similarity_scores": [
+                  0.7970479704797048,
+                  0.8327137546468402,
+                  0.8676470588235294
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 135.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8195200676221355
+            }
+          ],
+          "avg_stability": 0.807318779681179
+        },
+        "analytical": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.9,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The research data indicates that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The research data indicates that the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8573281452658884,
+                "min_similarity": 0.7859922178988327,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10088423596695231,
+                "similarity_scores": [
+                  1.0,
+                  0.7859922178988327,
+                  0.7859922178988327
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 128.0,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8401815823605706
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7977872592104802,
+                "min_similarity": 0.7472527472527473,
+                "max_similarity": 0.8296296296296296,
+                "std_similarity": 0.03613433089650806,
+                "similarity_scores": [
+                  0.8296296296296296,
+                  0.7472527472527473,
+                  0.8164794007490637
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5238095238095238,
+                "avg_length": 135.0,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.7499200236578514
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.801401965387435,
+                "min_similarity": 0.7804878048780488,
+                "max_similarity": 0.8222996515679443,
+                "std_similarity": 0.017069618907237197,
+                "similarity_scores": [
+                  0.8014184397163121,
+                  0.7804878048780488,
+                  0.8222996515679443
+                ]
+              },
+              "variance": {
+                "length_variance": 5.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 142.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.756879633977022
+            }
+          ],
+          "avg_stability": 0.7823270799984813
+        }
+      },
+      "overall_stability": 0.8103261272291454
+    },
+    {
+      "config": {
+        "gamma": 0.93,
+        "rank": 6
+      },
+      "categories": {
+        "narrative": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8151857168711101,
+                "min_similarity": 0.8089887640449438,
+                "max_similarity": 0.8257575757575758,
+                "std_similarity": 0.007512350446243337,
+                "similarity_scores": [
+                  0.8108108108108109,
+                  0.8089887640449438,
+                  0.8257575757575758
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.46296296296296297,
+                "avg_length": 131.66666666666666,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7264210499229226
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently through creative problem-solving methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8154272780359738,
+                "min_similarity": 0.7781818181818182,
+                "max_similarity": 0.8695652173913043,
+                "std_similarity": 0.03917268019545674,
+                "similarity_scores": [
+                  0.8695652173913043,
+                  0.7781818181818182,
+                  0.7985347985347986
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4074074074074074,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8027428537109698
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently employing versatile computational strategies.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7995393029805934,
+                "min_similarity": 0.7769784172661871,
+                "max_similarity": 0.8231046931407943,
+                "std_similarity": 0.018844364381273387,
+                "similarity_scores": [
+                  0.7769784172661871,
+                  0.8231046931407943,
+                  0.7985347985347986
+                ]
+              },
+              "variance": {
+                "length_variance": 4.666666666666667,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.45098039215686275,
+                "avg_length": 138.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7622274688414991
+            }
+          ],
+          "avg_stability": 0.7637971241584638
+        },
+        "technical": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through creative problem-solving methods.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8661800486618004,
+                "min_similarity": 0.7883211678832117,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09504635029014406,
+                "similarity_scores": [
+                  0.7883211678832117,
+                  1.0,
+                  0.8102189781021898
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 137.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8353825358204919
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8159250269454542,
+                "min_similarity": 0.8115942028985508,
+                "max_similarity": 0.8243727598566308,
+                "std_similarity": 0.005974087569399102,
+                "similarity_scores": [
+                  0.8115942028985508,
+                  0.8243727598566308,
+                  0.8118081180811808
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888888,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4888888888888889,
+                "avg_length": 137.66666666666666,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.727079857344727
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently employing versatile computational strategies.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8318727632663868,
+                "min_similarity": 0.8278145695364238,
+                "max_similarity": 0.835016835016835,
+                "std_similarity": 0.0030105227959779687,
+                "similarity_scores": [
+                  0.8327868852459016,
+                  0.835016835016835,
+                  0.8278145695364238
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 150.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7412910623773802
+            }
+          ],
+          "avg_stability": 0.7679178185141997
+        },
+        "creative": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8103627912349639,
+                "min_similarity": 0.779783393501805,
+                "max_similarity": 0.8321167883211679,
+                "std_similarity": 0.022257760081438,
+                "similarity_scores": [
+                  0.779783393501805,
+                  0.8321167883211679,
+                  0.8191881918819188
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 137.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.761741023760866
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 1.0,
+                "min_similarity": 1.0,
+                "max_similarity": 1.0,
+                "std_similarity": 0.0,
+                "similarity_scores": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3125,
+                "avg_length": 126.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 1.0
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently through creative problem-solving methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8177277371942755,
+                "min_similarity": 0.7453874538745388,
+                "max_similarity": 0.8676470588235294,
+                "std_similarity": 0.0523696947538389,
+                "similarity_scores": [
+                  0.8676470588235294,
+                  0.8401486988847584,
+                  0.7453874538745388
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 135.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8050075279490312
+            }
+          ],
+          "avg_stability": 0.8555828505699656
+        },
+        "analytical": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.93,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The research data indicates that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The research data indicates that the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8233289153142028,
+                "min_similarity": 0.7859922178988327,
+                "max_similarity": 0.8604651162790697,
+                "std_similarity": 0.030403763992947513,
+                "similarity_scores": [
+                  0.7859922178988327,
+                  0.8235294117647058,
+                  0.8604651162790697
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 128.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8105215766315375
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8163024175940233,
+                "min_similarity": 0.8059701492537313,
+                "max_similarity": 0.8339483394833949,
+                "std_similarity": 0.012538259536548727,
+                "similarity_scores": [
+                  0.8089887640449438,
+                  0.8339483394833949,
+                  0.8059701492537313
+                ]
+              },
+              "variance": {
+                "length_variance": 2.8888888888888893,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5238095238095238,
+                "avg_length": 134.33333333333334,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.7927203477524183
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently through creative problem-solving methods.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8230876542281701,
+                "min_similarity": 0.8014184397163121,
+                "max_similarity": 0.8480565371024735,
+                "std_similarity": 0.019182351097243224,
+                "similarity_scores": [
+                  0.8197879858657244,
+                  0.8014184397163121,
+                  0.8480565371024735
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 141.33333333333334,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8212585705521075
+            }
+          ],
+          "avg_stability": 0.8081668316453544
+        }
+      },
+      "overall_stability": 0.7988661562219959
+    },
+    {
+      "config": {
+        "gamma": 0.95,
+        "rank": 6
+      },
+      "categories": {
+        "narrative": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.870722433460076,
+                "min_similarity": 0.8060836501901141,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09141304395567534,
+                "similarity_scores": [
+                  0.8060836501901141,
+                  0.8060836501901141,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.22222222222222224,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3888888888888889,
+                "avg_length": 131.66666666666666,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8687874947190537
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The old man walked slowly down the street the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8327272727272726,
+                "min_similarity": 0.7490909090909091,
+                "max_similarity": 1.0,
+                "std_similarity": 0.11827967976211338,
+                "similarity_scores": [
+                  0.7490909090909091,
+                  0.7490909090909091,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.37037037037037035,
+                "avg_length": 137.0,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8160727272727272
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8641975308641975,
+                "min_similarity": 0.7851851851851852,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09645444436851658,
+                "similarity_scores": [
+                  0.7851851851851852,
+                  1.0,
+                  0.8074074074074075
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.37254901960784315,
+                "avg_length": 135.66666666666666,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8334705075445815
+            }
+          ],
+          "avg_stability": 0.8394435765121209
+        },
+        "technical": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8647342995169082,
+                "min_similarity": 0.7971014492753623,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09564729407354267,
+                "similarity_scores": [
+                  1.0,
+                  0.7971014492753623,
+                  0.7971014492753623
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 138.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8647342995169082
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7991986231222761,
+                "min_similarity": 0.7741935483870968,
+                "max_similarity": 0.8118081180811808,
+                "std_similarity": 0.01768147357754756,
+                "similarity_scores": [
+                  0.7741935483870968,
+                  0.8118081180811808,
+                  0.8115942028985508
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4888888888888889,
+                "avg_length": 137.66666666666666,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.7121747730489616
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8977777777777778,
+                "min_similarity": 0.8466666666666667,
+                "max_similarity": 1.0,
+                "std_similarity": 0.07228202652129152,
+                "similarity_scores": [
+                  1.0,
+                  0.8466666666666667,
+                  0.8466666666666667
+                ]
+              },
+              "variance": {
+                "length_variance": 8.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3958333333333333,
+                "avg_length": 151.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8259555555555556
+            }
+          ],
+          "avg_stability": 0.8009548760404751
+        },
+        "creative": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 1.0,
+                "min_similarity": 1.0,
+                "max_similarity": 1.0,
+                "std_similarity": 0.0,
+                "similarity_scores": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3125,
+                "avg_length": 134.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 1.0
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently employing versatile computational strategies.",
+                "Colors danced across the sky as the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Colors danced across the sky as the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7991170975422944,
+                "min_similarity": 0.7846153846153846,
+                "max_similarity": 0.8174603174603174,
+                "std_similarity": 0.013681259332120856,
+                "similarity_scores": [
+                  0.7846153846153846,
+                  0.7952755905511811,
+                  0.8174603174603174
+                ]
+              },
+              "variance": {
+                "length_variance": 11.555555555555555,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 127.66666666666667,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7067746773818515
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently employing versatile computational strategies.",
+                "Music filled the air with melodies that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Music filled the air with melodies that the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8143381891809565,
+                "min_similarity": 0.8074074074074075,
+                "max_similarity": 0.8205128205128205,
+                "std_similarity": 0.005376912731529635,
+                "similarity_scores": [
+                  0.8205128205128205,
+                  0.8074074074074075,
+                  0.8150943396226416
+                ]
+              },
+              "variance": {
+                "length_variance": 10.888888888888891,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.45098039215686275,
+                "avg_length": 134.66666666666666,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7256658085812523
+            }
+          ],
+          "avg_stability": 0.8108134953210345
+        },
+        "analytical": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 6
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The research data indicates that the advanced system processes information efficiently through creative problem-solving methods.",
+                "The research data indicates that the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8154857780593009,
+                "min_similarity": 0.7859922178988327,
+                "max_similarity": 0.8604651162790697,
+                "std_similarity": 0.03231521973585326,
+                "similarity_scores": [
+                  0.8,
+                  0.7859922178988327,
+                  0.8604651162790697
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 128.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.802800443733934
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently through creative problem-solving methods.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8140726285742043,
+                "min_similarity": 0.7765567765567766,
+                "max_similarity": 0.8686131386861314,
+                "std_similarity": 0.03946283221419606,
+                "similarity_scores": [
+                  0.8686131386861314,
+                  0.7970479704797048,
+                  0.7765567765567766
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.47619047619047616,
+                "avg_length": 136.33333333333334,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.8014092765741611
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8805256869772999,
+                "min_similarity": 0.8172043010752689,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08453177037662474,
+                "similarity_scores": [
+                  0.8172043010752689,
+                  1.0,
+                  0.8243727598566308
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 139.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8629151732377539
+            }
+          ],
+          "avg_stability": 0.822374964515283
+        }
+      },
+      "overall_stability": 0.8183967280972284
+    },
+    {
+      "config": {
+        "gamma": 0.97,
+        "rank": 8
+      },
+      "categories": {
+        "narrative": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 1.0,
+                "min_similarity": 1.0,
+                "max_similarity": 1.0,
+                "std_similarity": 0.0,
+                "similarity_scores": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3157894736842105,
+                "avg_length": 134.0,
+                "avg_word_count": 19.0
+              },
+              "stability_score": 1.0
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently while adapting to various conditions.",
+                "The old man walked slowly down the street the advanced system processes information efficiently and responds to different requirements.",
+                "The old man walked slowly down the street the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8246492531645714,
+                "min_similarity": 0.8120300751879699,
+                "max_similarity": 0.8484848484848485,
+                "std_similarity": 0.01686403742785886,
+                "similarity_scores": [
+                  0.8134328358208955,
+                  0.8484848484848485,
+                  0.8120300751879699
+                ]
+              },
+              "variance": {
+                "length_variance": 2.6666666666666665,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43859649122807015,
+                "avg_length": 133.0,
+                "avg_word_count": 19.0
+              },
+              "stability_score": 0.8026586064135162
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8518518518518517,
+                "min_similarity": 0.7777777777777778,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10475656017578482,
+                "similarity_scores": [
+                  1.0,
+                  0.7777777777777778,
+                  0.7777777777777778
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3888888888888889,
+                "avg_length": 136.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7306995884773662
+            }
+          ],
+          "avg_stability": 0.8444527316302941
+        },
+        "technical": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with flexible approach to problems.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.854014598540146,
+                "min_similarity": 0.781021897810219,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10322726732650327,
+                "similarity_scores": [
+                  0.781021897810219,
+                  0.781021897810219,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4117647058823529,
+                "avg_length": 135.66666666666666,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7325547445255475
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently with flexible approach to problems.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8774509803921569,
+                "min_similarity": 0.8161764705882353,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08665524279246907,
+                "similarity_scores": [
+                  0.8161764705882353,
+                  0.8161764705882353,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 137.33333333333334,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7526579520697168
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with flexible approach to problems.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8881431767337808,
+                "min_similarity": 0.8322147651006712,
+                "max_similarity": 1.0,
+                "std_similarity": 0.07909471825352879,
+                "similarity_scores": [
+                  0.8322147651006712,
+                  0.8322147651006712,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 150.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7618294804871987
+            }
+          ],
+          "avg_stability": 0.7490140590274876
+        },
+        "creative": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently while adapting to various conditions.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8832116788321168,
+                "min_similarity": 0.8248175182481752,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08258181386120264,
+                "similarity_scores": [
+                  0.8248175182481752,
+                  0.8248175182481752,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 8.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4117647058823529,
+                "avg_length": 138.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8125547445255475
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently with flexible approach to problems.",
+                "Colors danced across the sky as the advanced system processes information efficiently with flexible approach to problems.",
+                "Colors danced across the sky as the advanced system processes information efficiently and responds to different requirements."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8699186991869919,
+                "min_similarity": 0.8048780487804879,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09198136991044518,
+                "similarity_scores": [
+                  1.0,
+                  0.8048780487804879,
+                  0.8048780487804879
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.39215686274509803,
+                "avg_length": 122.33333333333333,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.8389882565492323
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Music filled the air with melodies that the advanced system processes information efficiently while adapting to various conditions.",
+                "Music filled the air with melodies that the advanced system processes information efficiently and responds to different requirements."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8179079350721142,
+                "min_similarity": 0.8106060606060606,
+                "max_similarity": 0.8222222222222222,
+                "std_similarity": 0.005191535492253771,
+                "similarity_scores": [
+                  0.8208955223880597,
+                  0.8222222222222222,
+                  0.8106060606060606
+                ]
+              },
+              "variance": {
+                "length_variance": 6.222222222222222,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.46296296296296297,
+                "avg_length": 133.66666666666666,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7670158857787382
+            }
+          ],
+          "avg_stability": 0.8061862956178394
+        },
+        "analytical": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.97,
+            "rank": 8
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently and responds to different requirements.",
+                "The research data indicates that the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "The research data indicates that the advanced system processes information efficiently and responds to different requirements."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8697916666666666,
+                "min_similarity": 0.796875,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09229190180556954,
+                "similarity_scores": [
+                  0.796875,
+                  1.0,
+                  0.8125
+                ]
+              },
+              "variance": {
+                "length_variance": 3.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.3958333333333333,
+                "avg_length": 127.33333333333333,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8388657407407407
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with flexible approach to problems.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently and handles multiple scenarios effectively."
+              ],
+              "similarity": {
+                "avg_similarity": 0.86318407960199,
+                "min_similarity": 0.7761194029850746,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09793542131855486,
+                "similarity_scores": [
+                  0.7761194029850746,
+                  1.0,
+                  0.8134328358208955
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 135.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.7404201216141514
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently and handles multiple scenarios effectively.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with flexible approach to problems."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8571428571428571,
+                "min_similarity": 0.7857142857142857,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10101525445522108,
+                "similarity_scores": [
+                  1.0,
+                  0.7857142857142857,
+                  0.7857142857142857
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.43137254901960786,
+                "avg_length": 141.33333333333334,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7352380952380951
+            }
+          ],
+          "avg_stability": 0.771507985864329
+        }
+      },
+      "overall_stability": 0.7927902680349875
+    },
+    {
+      "config": {
+        "gamma": 0.95,
+        "rank": 4
+      },
+      "categories": {
+        "narrative": {
+          "category": "narrative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Once upon a time in a distant galaxy",
+              "outputs": [
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through creative problem-solving methods.",
+                "Once upon a time in a distant galaxy the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8286706075756864,
+                "min_similarity": 0.7924528301886793,
+                "max_similarity": 0.8646616541353384,
+                "std_similarity": 0.029479564889269262,
+                "similarity_scores": [
+                  0.8288973384030418,
+                  0.7924528301886793,
+                  0.8646616541353384
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555554,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.42592592592592593,
+                "avg_length": 132.33333333333334,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.8157801759022869
+            },
+            {
+              "prompt": "The old man walked slowly down the street",
+              "outputs": [
+                "The old man walked slowly down the street the advanced system processes information efficiently through creative problem-solving methods.",
+                "The old man walked slowly down the street the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The old man walked slowly down the street the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7947344825769883,
+                "min_similarity": 0.7697841726618705,
+                "max_similarity": 0.8158844765342961,
+                "std_similarity": 0.01901124764127602,
+                "similarity_scores": [
+                  0.7985347985347986,
+                  0.7697841726618705,
+                  0.8158844765342961
+                ]
+              },
+              "variance": {
+                "length_variance": 4.666666666666667,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4444444444444444,
+                "avg_length": 138.0,
+                "avg_word_count": 18.0
+              },
+              "stability_score": 0.7576468733900622
+            },
+            {
+              "prompt": "In the year 2045, technology had advanced",
+              "outputs": [
+                "In the year 2045, technology had advanced the advanced system processes information efficiently employing versatile computational strategies.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "In the year 2045, technology had advanced the advanced system processes information efficiently through creative problem-solving methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7982016009252614,
+                "min_similarity": 0.7769784172661871,
+                "max_similarity": 0.8102189781021898,
+                "std_similarity": 0.015050888698302614,
+                "similarity_scores": [
+                  0.8102189781021898,
+                  0.7769784172661871,
+                  0.8074074074074075
+                ]
+              },
+              "variance": {
+                "length_variance": 10.666666666666666,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.45098039215686275,
+                "avg_length": 137.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.7130600968265668
+            }
+          ],
+          "avg_stability": 0.7621623820396386
+        },
+        "technical": {
+          "category": "technical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "Machine learning algorithms are designed to",
+              "outputs": [
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Machine learning algorithms are designed to the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8864734299516909,
+                "min_similarity": 0.8260869565217391,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08032989926722651,
+                "similarity_scores": [
+                  0.8260869565217391,
+                  1.0,
+                  0.8333333333333334
+                ]
+              },
+              "variance": {
+                "length_variance": 8.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 137.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.8155555555555556
+            },
+            {
+              "prompt": "The quantum computing breakthrough enabled",
+              "outputs": [
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies.",
+                "The quantum computing breakthrough enabled the advanced system processes information efficiently employing versatile computational strategies."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8628841607565012,
+                "min_similarity": 0.7943262411347518,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09695553973716253,
+                "similarity_scores": [
+                  0.7943262411347518,
+                  0.7943262411347518,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 0.8888888888888888,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 141.33333333333334,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.8552140793275546
+            },
+            {
+              "prompt": "Database optimization requires careful consideration of",
+              "outputs": [
+                "Database optimization requires careful consideration of the advanced system processes information efficiently employing versatile computational strategies.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Database optimization requires careful consideration of the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8852097130242825,
+                "min_similarity": 0.8278145695364238,
+                "max_similarity": 1.0,
+                "std_similarity": 0.08116899033487962,
+                "similarity_scores": [
+                  0.8278145695364238,
+                  0.8278145695364238,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4166666666666667,
+                "avg_length": 149.66666666666666,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7593132205052734
+            }
+          ],
+          "avg_stability": 0.8100276184627945
+        },
+        "creative": {
+          "category": "creative",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The mysterious forest whispered secrets of",
+              "outputs": [
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently through revolutionary optimization methods.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "The mysterious forest whispered secrets of the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7754354528446074,
+                "min_similarity": 0.7509025270758123,
+                "max_similarity": 0.7956204379562044,
+                "std_similarity": 0.018513082389588868,
+                "similarity_scores": [
+                  0.779783393501805,
+                  0.7509025270758123,
+                  0.7956204379562044
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4791666666666667,
+                "avg_length": 138.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7599267437877152
+            },
+            {
+              "prompt": "Colors danced across the sky as",
+              "outputs": [
+                "Colors danced across the sky as the advanced system processes information efficiently through creative problem-solving methods.",
+                "Colors danced across the sky as the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Colors danced across the sky as the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8087658070474566,
+                "min_similarity": 0.782608695652174,
+                "max_similarity": 0.859375,
+                "std_similarity": 0.03579287256953035,
+                "similarity_scores": [
+                  0.782608695652174,
+                  0.859375,
+                  0.7843137254901961
+                ]
+              },
+              "variance": {
+                "length_variance": 1.5555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4375,
+                "avg_length": 127.33333333333333,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7961850056044961
+            },
+            {
+              "prompt": "Music filled the air with melodies that",
+              "outputs": [
+                "Music filled the air with melodies that the advanced system processes information efficiently through revolutionary optimization methods.",
+                "Music filled the air with melodies that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "Music filled the air with melodies that the advanced system processes information efficiently using innovative algorithmic approaches."
+              ],
+              "similarity": {
+                "avg_similarity": 0.7704466596904775,
+                "min_similarity": 0.7453874538745388,
+                "max_similarity": 0.7910447761194029,
+                "std_similarity": 0.01890456307406644,
+                "similarity_scores": [
+                  0.7453874538745388,
+                  0.7749077490774908,
+                  0.7910447761194029
+                ]
+              },
+              "variance": {
+                "length_variance": 2.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.47058823529411764,
+                "avg_length": 135.0,
+                "avg_word_count": 17.0
+              },
+              "stability_score": 0.755037726496668
+            }
+          ],
+          "avg_stability": 0.7703831586296265
+        },
+        "analytical": {
+          "category": "analytical",
+          "nkat_params": {
+            "gamma": 0.95,
+            "rank": 4
+          },
+          "prompt_results": [
+            {
+              "prompt": "The research data indicates that",
+              "outputs": [
+                "The research data indicates that the advanced system processes information efficiently employing versatile computational strategies.",
+                "The research data indicates that the advanced system processes information efficiently via sophisticated processing techniques.",
+                "The research data indicates that the advanced system processes information efficiently via sophisticated processing techniques."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8481338481338482,
+                "min_similarity": 0.7722007722007722,
+                "max_similarity": 1.0,
+                "std_similarity": 0.10738558581726204,
+                "similarity_scores": [
+                  0.7722007722007722,
+                  0.7722007722007722,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 5.555555555555556,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.4,
+                "avg_length": 128.66666666666666,
+                "avg_word_count": 15.0
+              },
+              "stability_score": 0.801015301015301
+            },
+            {
+              "prompt": "Statistical analysis reveals significant",
+              "outputs": [
+                "Statistical analysis reveals significant the advanced system processes information efficiently employing versatile computational strategies.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Statistical analysis reveals significant the advanced system processes information efficiently with dynamic adaptation capabilities."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8725490196078431,
+                "min_similarity": 0.8088235294117647,
+                "max_similarity": 1.0,
+                "std_similarity": 0.09012145250416781,
+                "similarity_scores": [
+                  0.8088235294117647,
+                  0.8088235294117647,
+                  1.0
+                ]
+              },
+              "variance": {
+                "length_variance": 14.222222222222223,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.42857142857142855,
+                "avg_length": 134.66666666666666,
+                "avg_word_count": 14.0
+              },
+              "stability_score": 0.7484531590413943
+            },
+            {
+              "prompt": "Economic trends suggest that market conditions",
+              "outputs": [
+                "Economic trends suggest that market conditions the advanced system processes information efficiently with dynamic adaptation capabilities.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently using innovative algorithmic approaches.",
+                "Economic trends suggest that market conditions the advanced system processes information efficiently through revolutionary optimization methods."
+              ],
+              "similarity": {
+                "avg_similarity": 0.8180030263258237,
+                "min_similarity": 0.8070175438596491,
+                "max_similarity": 0.8297872340425532,
+                "std_similarity": 0.009312828760219783,
+                "similarity_scores": [
+                  0.8172043010752689,
+                  0.8297872340425532,
+                  0.8070175438596491
+                ]
+              },
+              "variance": {
+                "length_variance": 6.0,
+                "word_count_variance": 0.0,
+                "punctuation_variance": 0.0,
+                "vocabulary_diversity": 0.5,
+                "avg_length": 141.0,
+                "avg_word_count": 16.0
+              },
+              "stability_score": 0.7689228447462743
+            }
+          ],
+          "avg_stability": 0.7727971016009899
+        }
+      },
+      "overall_stability": 0.7788425651832624
+    }
+  ],
+  "recommendations": {
+    "optimal_configuration": {
+      "gamma": 0.95,
+      "rank": 6,
+      "expected_stability": 0.8183967280972284,
+      "description": "Configuration providing best overall text stability"
+    },
+    "usage_guidelines": {
+      "high_consistency_needed": {
+        "gamma": 0.97,
+        "rank": 6,
+        "use_cases": [
+          "API responses",
+          "Documentation",
+          "Technical writing"
+        ]
+      },
+      "balanced_creativity": {
+        "gamma": 0.95,
+        "rank": 6,
+        "use_cases": [
+          "Content generation",
+          "Narrative writing",
+          "General text"
+        ]
+      },
+      "high_creativity": {
+        "gamma": 0.9199999999999999,
+        "rank": 4,
+        "use_cases": [
+          "Creative writing",
+          "Brainstorming",
+          "Artistic content"
+        ]
+      }
+    },
+    "stability_improvements": [
+      {
+        "parameter": "gamma",
+        "effect": "Higher values increase output consistency",
+        "recommended_range": "0.93-0.97"
+      },
+      {
+        "parameter": "rank",
+        "effect": "Higher values improve parameter stability",
+        "recommended_range": "6-8"
+      },
+      {
+        "parameter": "seed_fixation",
+        "effect": "Fixed seed ensures reproducible outputs",
+        "recommended": "Always use for production"
+      }
+    ]
+  }
+}

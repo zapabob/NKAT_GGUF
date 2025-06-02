@@ -1,0 +1,8 @@
+{
+  "nkat_tokens_per_second": 1926.5020703394002,
+  "baseline_tokens_per_second": 1960.6720323722336,
+  "speedup_ratio": 1.0177367896764387,
+  "overhead_percentage": 1.7736789676438658,
+  "nkat_latency_ms": 0.5190754868090153,
+  "baseline_latency_ms": 0.5100292060524225
+}

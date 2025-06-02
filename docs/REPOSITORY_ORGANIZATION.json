@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-06-02T13:00:11.397647",
+  "organization_summary": {
+    "src/": "Main NKAT implementation scripts",
+    "build_tools/": "Build and compilation utilities",
+    "configs/": "Configuration files and parameters",
+    "docs/": "Documentation and guides",
+    "results/": "Benchmark and validation results",
+    "scripts/": "Execution and setup scripts",
+    "logs/": "Log files",
+    "models/": "Model files and checkpoints",
+    "output/": "Generated outputs and temporary files",
+    "tests/": "Test suites and validation",
+    "tools/": "Additional utilities"
+  },
+  "key_files": {
+    "src/nkat_inference_engine.py": "Main NKAT inference engine",
+    "src/fix_output_stability.py": "Output stability fixing tool",
+    "configs/stability/": "Stability configuration files",
+    "docs/guides/": "Implementation and usage guides",
+    "scripts/run/": "Ready-to-use execution scripts"
+  }
+}

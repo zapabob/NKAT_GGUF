@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-06-02T10:57:36.733602",
+  "state": "ENVIRONMENT_READY",
+  "config": {
+    "cuda_arch": "86",
+    "max_threads": 8,
+    "sm_count": 68,
+    "memory_bandwidth": 760,
+    "cuda_cores": 8704,
+    "tensor_cores": 272,
+    "rt_cores": 68
+  },
+  "cuda_flags": [
+    "--use_fast_math",
+    "-O3",
+    "--maxrregcount=64",
+    "--ftz=true",
+    "--prec-div=false",
+    "--prec-sqrt=false",
+    "--fmad=true",
+    "--gpu-architecture=sm_86",
+    "--gpu-code=sm_86",
+    "--ptxas-options=-v",
+    "--generate-line-info",
+    "--optimize=3"
+  ]
+}

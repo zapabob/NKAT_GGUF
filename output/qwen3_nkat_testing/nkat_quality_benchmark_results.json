@@ -1,0 +1,291 @@
+{
+  "suite_info": {
+    "timestamp": "2025-06-02T12:23:37.446794",
+    "total_scenarios": 6,
+    "iterations_per_test": 2
+  },
+  "scenario_results": [
+    {
+      "scenario": {
+        "name": "Short QA",
+        "category": "question_answering",
+        "prompt": "What are the main benefits of renewable energy?",
+        "expected_length": [
+          30,
+          100
+        ],
+        "timeout_ms": 5000
+      },
+      "iterations": [
+        {
+          "iteration": 1,
+          "generated_text": "Renewable energy offers several key benefits including reduced carbon emissions, energy independence, lower long-term costs, and job creation in green industries.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.7506244544008587,
+            "fluency": 0.578,
+            "diversity": 0.9727272727272728,
+            "task_accuracy": 0.393,
+            "overall_score": 0.6763152045093056
+          }
+        },
+        {
+          "iteration": 2,
+          "generated_text": "Renewable energy offers several key benefits including reduced carbon emissions, energy independence, lower long-term costs, and job creation in green industries.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.7101868041066574,
+            "fluency": 0.578,
+            "diversity": 0.9727272727272728,
+            "task_accuracy": 0.393,
+            "overall_score": 0.6662057919357552
+          }
+        }
+      ],
+      "aggregate_metrics": {
+        "avg_coherence": 0.730405629253758,
+        "avg_fluency": 0.578,
+        "avg_diversity": 0.9727272727272728,
+        "avg_task_accuracy": 0.393,
+        "avg_overall_score": 0.6712604982225304,
+        "avg_response_time_ms": 0.0,
+        "std_overall_score": 0.005054706286775179
+      }
+    },
+    {
+      "scenario": {
+        "name": "Technical Explanation",
+        "category": "explanation",
+        "prompt": "Explain how neural networks learn from data, including backpropagation.",
+        "expected_length": [
+          100,
+          300
+        ],
+        "timeout_ms": 15000
+      },
+      "iterations": [
+        {
+          "iteration": 1,
+          "generated_text": "Neural networks learn through a process called backpropagation. During training, the network processes input data, compares its predictions to actual results, and adjusts connection weights to minimize errors.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.7345795081369705,
+            "fluency": 0.952,
+            "diversity": 0.9785714285714285,
+            "task_accuracy": 0.11200000000000002,
+            "overall_score": 0.6964305913199569
+          }
+        },
+        {
+          "iteration": 2,
+          "generated_text": "Neural networks learn through a process called backpropagation. During training, the network processes input data, compares its predictions to actual results, and adjusts connection weights to minimize errors.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.6060214978895944,
+            "fluency": 0.952,
+            "diversity": 0.9785714285714285,
+            "task_accuracy": 0.11200000000000002,
+            "overall_score": 0.6642910887581128
+          }
+        }
+      ],
+      "aggregate_metrics": {
+        "avg_coherence": 0.6703005030132825,
+        "avg_fluency": 0.952,
+        "avg_diversity": 0.9785714285714285,
+        "avg_task_accuracy": 0.11200000000000002,
+        "avg_overall_score": 0.6803608400390349,
+        "avg_response_time_ms": 0.0,
+        "std_overall_score": 0.01606975128092203
+      }
+    },
+    {
+      "scenario": {
+        "name": "Creative Writing",
+        "category": "creative",
+        "prompt": "Write a short story about an AI that discovers the meaning of friendship.",
+        "expected_length": [
+          150,
+          400
+        ],
+        "timeout_ms": 20000
+      },
+      "iterations": [
+        {
+          "iteration": 1,
+          "generated_text": "In a small research lab, an AI named ARIA discovered friendship through helping a lonely scientist. Together, they solved complex problems while learning about trust, empathy, and the joy of shared discovery.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.6594244441028756,
+            "fluency": 0.738,
+            "diversity": 0.98125,
+            "task_accuracy": 0.0,
+            "overall_score": 0.5965436110257188
+          }
+        },
+        {
+          "iteration": 2,
+          "generated_text": "In a small research lab, an AI named ARIA discovered friendship through helping a lonely scientist. Together, they solved complex problems while learning about trust, empathy, and the joy of shared discovery.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.7101174302797627,
+            "fluency": 0.738,
+            "diversity": 0.98125,
+            "task_accuracy": 0.0,
+            "overall_score": 0.6092168575699407
+          }
+        }
+      ],
+      "aggregate_metrics": {
+        "avg_coherence": 0.6847709371913191,
+        "avg_fluency": 0.738,
+        "avg_diversity": 0.98125,
+        "avg_task_accuracy": 0.0,
+        "avg_overall_score": 0.6028802342978298,
+        "avg_response_time_ms": 0.0,
+        "std_overall_score": 0.006336623272110931
+      }
+    },
+    {
+      "scenario": {
+        "name": "Code Generation",
+        "category": "coding",
+        "prompt": "def binary_search(arr, target):\n    # Implement binary search algorithm\n",
+        "expected_length": [
+          50,
+          200
+        ],
+        "timeout_ms": 10000
+      },
+      "iterations": [
+        {
+          "iteration": 1,
+          "generated_text": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.8144724715474452,
+            "fluency": 0.4431818181818181,
+            "diversity": 0.5866666666666667,
+            "task_accuracy": 1.0,
+            "overall_score": 0.7524135724323158
+          }
+        },
+        {
+          "iteration": 2,
+          "generated_text": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.7194904455733813,
+            "fluency": 0.4431818181818181,
+            "diversity": 0.5866666666666667,
+            "task_accuracy": 1.0,
+            "overall_score": 0.7286680659387998
+          }
+        }
+      ],
+      "aggregate_metrics": {
+        "avg_coherence": 0.7669814585604132,
+        "avg_fluency": 0.4431818181818181,
+        "avg_diversity": 0.5866666666666667,
+        "avg_task_accuracy": 1.0,
+        "avg_overall_score": 0.7405408191855578,
+        "avg_response_time_ms": 0.0,
+        "std_overall_score": 0.011872753246757961
+      }
+    },
+    {
+      "scenario": {
+        "name": "Long Context Analysis",
+        "category": "analysis",
+        "prompt": "Analyze the economic implications of cryptocurrency adoption in developing countries, considering both opportunities and challenges.",
+        "expected_length": [
+          200,
+          500
+        ],
+        "timeout_ms": 30000
+      },
+      "iterations": [
+        {
+          "iteration": 1,
+          "generated_text": "Cryptocurrency adoption in developing countries presents both significant opportunities and challenges. Opportunities include financial inclusion, reduced remittance costs, and economic empowerment. However, challenges involve regulatory uncertainty, technological barriers, and potential economic instability.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.727906439084973,
+            "fluency": 0.6696176045807952,
+            "diversity": 0.90625,
+            "task_accuracy": 0.6559999999999999,
+            "overall_score": 0.749318510916442
+          }
+        },
+        {
+          "iteration": 2,
+          "generated_text": "Cryptocurrency adoption in developing countries presents both significant opportunities and challenges. Opportunities include financial inclusion, reduced remittance costs, and economic empowerment. However, challenges involve regulatory uncertainty, technological barriers, and potential economic instability.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.6006409819221716,
+            "fluency": 0.6696176045807952,
+            "diversity": 0.90625,
+            "task_accuracy": 0.6559999999999999,
+            "overall_score": 0.7175021466257416
+          }
+        }
+      ],
+      "aggregate_metrics": {
+        "avg_coherence": 0.6642737105035723,
+        "avg_fluency": 0.6696176045807952,
+        "avg_diversity": 0.90625,
+        "avg_task_accuracy": 0.6559999999999999,
+        "avg_overall_score": 0.7334103287710918,
+        "avg_response_time_ms": 0.0,
+        "std_overall_score": 0.01590818214535017
+      }
+    },
+    {
+      "scenario": {
+        "name": "Dialogue Continuation",
+        "category": "dialogue",
+        "prompt": "Person A: 'I think artificial intelligence will replace most jobs.' Person B: 'I disagree because...'",
+        "expected_length": [
+          80,
+          200
+        ],
+        "timeout_ms": 12000
+      },
+      "iterations": [
+        {
+          "iteration": 1,
+          "generated_text": "I disagree because AI will more likely augment human capabilities rather than replace them entirely. While automation may eliminate some routine tasks, it also creates new opportunities for creativity, problem-solving, and human-AI collaboration.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.6968280269167417,
+            "fluency": 0.6619999999999999,
+            "diversity": 0.9657142857142857,
+            "task_accuracy": 0.4947692307692308,
+            "overall_score": 0.708256457278636
+          }
+        },
+        {
+          "iteration": 2,
+          "generated_text": "I disagree because AI will more likely augment human capabilities rather than replace them entirely. While automation may eliminate some routine tasks, it also creates new opportunities for creativity, problem-solving, and human-AI collaboration.",
+          "response_time_ms": 0.0,
+          "metrics": {
+            "coherence": 0.7116265140208109,
+            "fluency": 0.6619999999999999,
+            "diversity": 0.9657142857142857,
+            "task_accuracy": 0.4947692307692308,
+            "overall_score": 0.7119560790546532
+          }
+        }
+      ],
+      "aggregate_metrics": {
+        "avg_coherence": 0.7042272704687763,
+        "avg_fluency": 0.6619999999999999,
+        "avg_diversity": 0.9657142857142857,
+        "avg_task_accuracy": 0.4947692307692308,
+        "avg_overall_score": 0.7101062681666446,
+        "avg_response_time_ms": 0.0,
+        "std_overall_score": 0.0018498108880086184
+      }
+    }
+  ]
+}

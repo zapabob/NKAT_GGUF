@@ -1,0 +1,22 @@
+{
+  "nkat_kobold_integration": {
+    "version": "1.0",
+    "rtx_3080_optimized": true,
+    "extensions": {
+      "nkat_star_gemm": true,
+      "nkat_theta_path": true,
+      "nkat_decay": false,
+      "backend_selector": true
+    },
+    "recommended_models": [
+      "llama-7b-q4_k_m.gguf",
+      "llama-13b-q4_k_m.gguf",
+      "llama-7b-q6_k.gguf"
+    ],
+    "performance_targets": {
+      "tokens_per_second": "45+ (7B Q4_K_M)",
+      "perplexity_improvement": "-4%",
+      "vram_usage": "< 9.5GB"
+    }
+  }
+}

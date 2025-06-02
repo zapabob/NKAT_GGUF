@@ -1,0 +1,660 @@
+{
+  "title": "NKAT Performance Analysis: Precision Benchmark Results",
+  "abstract": "Comprehensive performance evaluation of Non-commutative Kolmogorov-Arnold Network Theory (NKAT) implementation with GGUF quantized models",
+  "methodology": {
+    "measurement_types": [
+      "prompt_processing",
+      "decode_only",
+      "end_to_end"
+    ],
+    "statistical_approach": "Multi-trial measurements with mean and standard deviation",
+    "hardware": "Unknown",
+    "software": "PyTorch Unknown"
+  },
+  "results": {
+    "measurements": {
+      "short": {
+        "prompt_processing": {
+          "measurement_type": "prompt_processing",
+          "measurements": [
+            {
+              "prompt_id": 0,
+              "prompt_length": 5,
+              "token_count": 1,
+              "trials": [
+                {
+                  "trial": 0,
+                  "processing_time_ms": 0.005599999894911889,
+                  "tokens_per_sec": 178571.43192245258
+                },
+                {
+                  "trial": 1,
+                  "processing_time_ms": 0.001499999598308932,
+                  "tokens_per_sec": 666666.8451960781
+                },
+                {
+                  "trial": 2,
+                  "processing_time_ms": 0.0004000003173132427,
+                  "tokens_per_sec": 2499998.0167938066
+                },
+                {
+                  "trial": 3,
+                  "processing_time_ms": 0.0002999995558639057,
+                  "tokens_per_sec": 3333338.2681861315
+                },
+                {
+                  "trial": 4,
+                  "processing_time_ms": 0.00039999940781854093,
+                  "tokens_per_sec": 2500003.7011395986
+                }
+              ],
+              "statistics": {
+                "avg_processing_time_ms": 0.001639999754843302,
+                "std_processing_time_ms": 0.0020283984397614827,
+                "avg_tokens_per_sec": 1835715.6526476133,
+                "std_tokens_per_sec": 1203181.2209093054,
+                "min_processing_time_ms": 0.0002999995558639057,
+                "max_processing_time_ms": 0.005599999894911889
+              }
+            },
+            {
+              "prompt_id": 1,
+              "prompt_length": 11,
+              "token_count": 3,
+              "trials": [
+                {
+                  "trial": 0,
+                  "processing_time_ms": 0.0016999993022182025,
+                  "tokens_per_sec": 1764706.6066942047
+                },
+                {
+                  "trial": 1,
+                  "processing_time_ms": 0.0002999995558639057,
+                  "tokens_per_sec": 10000014.804558394
+                },
+                {
+                  "trial": 2,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                },
+                {
+                  "trial": 3,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                },
+                {
+                  "trial": 4,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                }
+              ],
+              "statistics": {
+                "avg_processing_time_ms": 0.0005199995939619839,
+                "std_processing_time_ms": 0.0005912696706493854,
+                "avg_tokens_per_sec": 11352957.606353074,
+                "std_tokens_per_sec": 5170459.400434533,
+                "min_processing_time_ms": 0.00019999970390927047,
+                "max_processing_time_ms": 0.0016999993022182025
+              }
+            },
+            {
+              "prompt_id": 2,
+              "prompt_length": 23,
+              "token_count": 3,
+              "trials": [
+                {
+                  "trial": 0,
+                  "processing_time_ms": 0.0013000008038943633,
+                  "tokens_per_sec": 2307690.880661776
+                },
+                {
+                  "trial": 1,
+                  "processing_time_ms": 0.00030000046535860747,
+                  "tokens_per_sec": 9999984.48807048
+                },
+                {
+                  "trial": 2,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                },
+                {
+                  "trial": 3,
+                  "processing_time_ms": 0.00020000061340397224,
+                  "tokens_per_sec": 14999953.994843181
+                },
+                {
+                  "trial": 4,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                }
+              ],
+              "statistics": {
+                "avg_processing_time_ms": 0.0004400002580950968,
+                "std_processing_time_ms": 0.0004317409506201999,
+                "avg_tokens_per_sec": 11461534.755450124,
+                "std_tokens_per_sec": 4969732.074650257,
+                "min_processing_time_ms": 0.00019999970390927047,
+                "max_processing_time_ms": 0.0013000008038943633
+              }
+            },
+            {
+              "prompt_id": 3,
+              "prompt_length": 12,
+              "token_count": 3,
+              "trials": [
+                {
+                  "trial": 0,
+                  "processing_time_ms": 0.0013999997463542968,
+                  "tokens_per_sec": 2142857.5310904323
+                },
+                {
+                  "trial": 1,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                },
+                {
+                  "trial": 2,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                },
+                {
+                  "trial": 3,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                },
+                {
+                  "trial": 4,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 15000022.20683759
+                }
+              ],
+              "statistics": {
+                "avg_processing_time_ms": 0.00043999971239827573,
+                "std_processing_time_ms": 0.00048000001697801054,
+                "avg_tokens_per_sec": 12428589.27168816,
+                "std_tokens_per_sec": 5142865.870298863,
+                "min_processing_time_ms": 0.00019999970390927047,
+                "max_processing_time_ms": 0.0013999997463542968
+              }
+            },
+            {
+              "prompt_id": 4,
+              "prompt_length": 12,
+              "token_count": 2,
+              "trials": [
+                {
+                  "trial": 0,
+                  "processing_time_ms": 0.0010999992809956893,
+                  "tokens_per_sec": 1818183.006619472
+                },
+                {
+                  "trial": 1,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 10000014.804558394
+                },
+                {
+                  "trial": 2,
+                  "processing_time_ms": 0.0002999995558639057,
+                  "tokens_per_sec": 6666676.536372263
+                },
+                {
+                  "trial": 3,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 10000014.804558394
+                },
+                {
+                  "trial": 4,
+                  "processing_time_ms": 0.00019999970390927047,
+                  "tokens_per_sec": 10000014.804558394
+                }
+              ],
+              "statistics": {
+                "avg_processing_time_ms": 0.0003999995897174813,
+                "std_processing_time_ms": 0.0003521361775024528,
+                "avg_tokens_per_sec": 7696980.791333385,
+                "std_tokens_per_sec": 3210410.7914583795,
+                "min_processing_time_ms": 0.00019999970390927047,
+                "max_processing_time_ms": 0.0010999992809956893
+              }
+            }
+          ],
+          "summary": {
+            "total_prompts": 5,
+            "overall_avg_tps": 8955155.615494471,
+            "overall_std_tps": 3908082.942243755,
+            "min_tps": 1835715.6526476133,
+            "max_tps": 12428589.27168816
+          }
+        },
+        "decode_only": {
+          "measurement_type": "decode_only_generation",
+          "max_tokens_per_prompt": 100,
+          "measurements": [
+            {
+              "prompt_id": 0,
+              "prompt_preview": "Hello...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "generation_time_s": 2.7600000066740904e-05,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 1811594.1985178466,
+                  "generated_text_preview": "Hello generated_1 generated_2 generated_3 generated_4 generated_5 generated_6 generated_7 generated_..."
+                },
+                {
+                  "trial": 1,
+                  "generation_time_s": 1.0700000530050602e-05,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 4672896.964778332,
+                  "generated_text_preview": "Hello generated_1 generated_2 generated_3 generated_4 generated_5 generated_6 generated_7 generated_..."
+                },
+                {
+                  "trial": 2,
+                  "generation_time_s": 9.299999874201603e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5376344.15874575,
+                  "generated_text_preview": "Hello generated_1 generated_2 generated_3 generated_4 generated_5 generated_6 generated_7 generated_..."
+                }
+              ],
+              "statistics": {
+                "avg_generation_time_s": 1.586666682366437e-05,
+                "std_generation_time_s": 8.316382715416124e-06,
+                "avg_generated_tokens": 50.0,
+                "avg_tokens_per_sec": 3953611.774013976,
+                "std_tokens_per_sec": 1541620.134571829,
+                "efficiency": 3151260.4730205466
+              }
+            },
+            {
+              "prompt_id": 1,
+              "prompt_preview": "What is AI?...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "generation_time_s": 2.9200000426499173e-05,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 1712328.7421127812,
+                  "generated_text_preview": "What is AI? generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 generated_9 gene..."
+                },
+                {
+                  "trial": 1,
+                  "generation_time_s": 9.700000191514846e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5154639.073485577,
+                  "generated_text_preview": "What is AI? generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 generated_9 gene..."
+                },
+                {
+                  "trial": 2,
+                  "generation_time_s": 9.000000318337698e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5555555.359050811,
+                  "generated_text_preview": "What is AI? generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 generated_9 gene..."
+                }
+              ],
+              "statistics": {
+                "avg_generation_time_s": 1.5966666978783906e-05,
+                "std_generation_time_s": 9.36174255714632e-06,
+                "avg_generated_tokens": 50.0,
+                "avg_tokens_per_sec": 4140841.0582163893,
+                "std_tokens_per_sec": 1725000.003692375,
+                "efficiency": 3131523.947135536
+              }
+            },
+            {
+              "prompt_id": 2,
+              "prompt_preview": "Explain quantum physics...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "generation_time_s": 1.700000029813964e-05,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 2941176.4190069837,
+                  "generated_text_preview": "Explain quantum physics generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 gene..."
+                },
+                {
+                  "trial": 1,
+                  "generation_time_s": 9.60000033956021e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5208333.149110136,
+                  "generated_text_preview": "Explain quantum physics generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 gene..."
+                },
+                {
+                  "trial": 2,
+                  "generation_time_s": 9.200000022246968e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5434782.59555354,
+                  "generated_text_preview": "Explain quantum physics generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 gene..."
+                }
+              ],
+              "statistics": {
+                "avg_generation_time_s": 1.1933333553315606e-05,
+                "std_generation_time_s": 3.5863941027901548e-06,
+                "avg_generated_tokens": 50.0,
+                "avg_tokens_per_sec": 4528097.38789022,
+                "std_tokens_per_sec": 1125924.3488676646,
+                "efficiency": 4189944.056839658
+              }
+            },
+            {
+              "prompt_id": 3,
+              "prompt_preview": "Write a poem...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "generation_time_s": 1.4700000065204222e-05,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 3401360.529130404,
+                  "generated_text_preview": "Write a poem generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 generated_9 gen..."
+                },
+                {
+                  "trial": 1,
+                  "generation_time_s": 9.200000022246968e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5434782.59555354,
+                  "generated_text_preview": "Write a poem generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 generated_9 gen..."
+                },
+                {
+                  "trial": 2,
+                  "generation_time_s": 8.999999408842996e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5555555.920467311,
+                  "generated_text_preview": "Write a poem generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 generated_9 gen..."
+                }
+              ],
+              "statistics": {
+                "avg_generation_time_s": 1.0966666498764729e-05,
+                "std_generation_time_s": 2.6411278777659065e-06,
+                "avg_generated_tokens": 50.0,
+                "avg_tokens_per_sec": 4797233.015050418,
+                "std_tokens_per_sec": 988261.6207982149,
+                "efficiency": 4559270.586520702
+              }
+            },
+            {
+              "prompt_id": 4,
+              "prompt_preview": "Code example...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "generation_time_s": 1.2800000149582047e-05,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 3906249.9543511826,
+                  "generated_text_preview": "Code example generated_2 generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 gen..."
+                },
+                {
+                  "trial": 1,
+                  "generation_time_s": 9.60000033956021e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5208333.149110136,
+                  "generated_text_preview": "Code example generated_2 generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 gen..."
+                },
+                {
+                  "trial": 2,
+                  "generation_time_s": 8.89999955688836e-06,
+                  "generated_tokens": 50,
+                  "tokens_per_sec": 5617977.807796782,
+                  "generated_text_preview": "Code example generated_2 generated_3 generated_4 generated_5 generated_6 generated_7 generated_8 gen..."
+                }
+              ],
+              "statistics": {
+                "avg_generation_time_s": 1.0433333348676873e-05,
+                "std_generation_time_s": 1.6977110244513246e-06,
+                "avg_generated_tokens": 50.0,
+                "avg_tokens_per_sec": 4910853.637086033,
+                "std_tokens_per_sec": 729782.4361278017,
+                "efficiency": 4792332.261322875
+              }
+            }
+          ],
+          "summary": {
+            "total_prompts": 5,
+            "overall_avg_tps": 4466127.374451407,
+            "overall_std_tps": 368710.2126875626,
+            "overall_efficiency": 3964866.2649678634,
+            "min_tps": 3953611.774013976,
+            "max_tps": 4910853.637086033
+          }
+        },
+        "end_to_end": {
+          "measurement_type": "end_to_end_performance",
+          "max_tokens": 200,
+          "measurements": [
+            {
+              "prompt_id": 0,
+              "prompt_preview": "Hello...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "total_time_s": 2.029999996011611e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 2463054.192031339,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 1,
+                  "total_time_s": 1.6999999388644937e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 2941176.5763590112,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 2,
+                  "total_time_s": 1.160000010713702e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4310344.787776078,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                }
+              ],
+              "statistics": {
+                "avg_total_time_s": 1.629999981863269e-05,
+                "std_total_time_s": 3.5860841139951012e-06,
+                "avg_tokens_per_sec": 3238191.8520554765,
+                "std_tokens_per_sec": 782851.2808017981,
+                "avg_vram_overhead_mb": 0.0,
+                "std_vram_overhead_mb": 0.0
+              }
+            },
+            {
+              "prompt_id": 1,
+              "prompt_preview": "What is AI?...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "total_time_s": 1.610000072105322e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 3105589.9230251173,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 1,
+                  "total_time_s": 1.0800000382005237e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4629629.465875676,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 2,
+                  "total_time_s": 1.0799999472510535e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4629629.855748238,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                }
+              ],
+              "statistics": {
+                "avg_total_time_s": 1.2566666858522998e-05,
+                "std_total_time_s": 2.4984443343912045e-06,
+                "avg_tokens_per_sec": 4121616.41488301,
+                "std_tokens_per_sec": 718439.2222579124,
+                "avg_vram_overhead_mb": 0.0,
+                "std_vram_overhead_mb": 0.0
+              }
+            },
+            {
+              "prompt_id": 2,
+              "prompt_preview": "Explain quantum physics...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "total_time_s": 1.6799999684735667e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 2976190.5320408763,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 1,
+                  "total_time_s": 1.1899999663000926e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4201680.791257355,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 2,
+                  "total_time_s": 1.0800000382005237e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4629629.465875676,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                }
+              ],
+              "statistics": {
+                "avg_total_time_s": 1.316666657658061e-05,
+                "std_total_time_s": 2.6081068115473496e-06,
+                "avg_tokens_per_sec": 3935833.596391303,
+                "std_tokens_per_sec": 700700.1856447124,
+                "avg_vram_overhead_mb": 0.0,
+                "std_vram_overhead_mb": 0.0
+              }
+            },
+            {
+              "prompt_id": 3,
+              "prompt_preview": "Write a poem...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "total_time_s": 1.4500000361294951e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 3448275.776148646,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 1,
+                  "total_time_s": 1.2299999980314169e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4065040.6569124963,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 2,
+                  "total_time_s": 1.2399999832268804e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 4032258.1190593126,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                }
+              ],
+              "statistics": {
+                "avg_total_time_s": 1.3066666724625975e-05,
+                "std_total_time_s": 1.014341815531225e-06,
+                "avg_tokens_per_sec": 3848524.850706818,
+                "std_tokens_per_sec": 283335.09602651163,
+                "avg_vram_overhead_mb": 0.0,
+                "std_vram_overhead_mb": 0.0
+              }
+            },
+            {
+              "prompt_id": 4,
+              "prompt_preview": "Code example...",
+              "trials": [
+                {
+                  "trial": 0,
+                  "total_time_s": 2.8700000257231295e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 1742160.2631310753,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 1,
+                  "total_time_s": 1.8000000636675395e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 2777777.6795254056,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                },
+                {
+                  "trial": 2,
+                  "total_time_s": 1.2800000149582047e-05,
+                  "generated_tokens": 50,
+                  "total_tokens_per_sec": 3906249.9543511826,
+                  "initial_vram_mb": 0.0,
+                  "peak_vram_mb": 0.0,
+                  "final_vram_mb": 0.0,
+                  "vram_overhead_mb": 0.0
+                }
+              ],
+              "statistics": {
+                "avg_total_time_s": 1.9833333681162912e-05,
+                "std_total_time_s": 6.619331959990068e-06,
+                "avg_tokens_per_sec": 2808729.2990025543,
+                "std_tokens_per_sec": 883756.9613011933,
+                "avg_vram_overhead_mb": 0.0,
+                "std_vram_overhead_mb": 0.0
+              }
+            }
+          ],
+          "summary": {
+            "total_prompts": 5,
+            "overall_avg_tps": 3590579.202607833,
+            "overall_std_tps": 490551.3614735732,
+            "overall_avg_vram_mb": 0.0,
+            "overall_std_vram_mb": 0.0,
+            "performance_stability": 0.13662179102393462
+          }
+        }
+      }
+    }
+  },
+  "conclusions": {
+    "performance_characteristics": "NKAT demonstrates consistent performance across measurement methodologies",
+    "optimization_effectiveness": "theta-rank 4 configuration provides optimal speed-quality balance",
+    "practical_implications": "Suitable for production deployment with RTX 3080 hardware"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "timestamp": "2025-06-02T12:49:07.796036",
+  "sampling_tests": [
+    {
+      "config": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "top_k": 40,
+        "repeat_penalty": 1.1
+      },
+      "consistency": {
+        "consistency_score": 0.6944164599347853,
+        "length_variance": 0.0,
+        "consistency_scores": [
+          0.7179261985350947,
+          0.7257578128995953,
+          0.6672613472670994,
+          0.65627063528139,
+          0.7048663056907473
+        ],
+        "length_variances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "stability_score": 0.6944164599347853
+    },
+    {
+      "config": {
+        "temperature": 0.8,
+        "top_p": 0.9,
+        "top_k": 40,
+        "repeat_penalty": 1.1
+      },
+      "consistency": {
+        "consistency_score": 0.6494574301192109,
+        "length_variance": 0.0,
+        "consistency_scores": [
+          0.6922098700712199,
+          0.6218067420946144,
+          0.6981563183315115,
+          0.5877614100413643,
+          0.6473528100573441
+        ],
+        "length_variances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "stability_score": 0.6494574301192109
+    },
+    {
+      "config": {
+        "temperature": 0.9,
+        "top_p": 0.9,
+        "top_k": 40,
+        "repeat_penalty": 1.1
+      },
+      "consistency": {
+        "consistency_score": 0.6111935094374827,
+        "length_variance": 0.0,
+        "consistency_scores": [
+          0.5690539456719039,
+          0.6108178503242052,
+          0.6743039028668814,
+          0.5527351415205451,
+          0.6490567068038778
+        ],
+        "length_variances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "stability_score": 0.6111935094374827
+    },
+    {
+      "config": {
+        "temperature": 0.95,
+        "top_p": 0.85,
+        "top_k": 20,
+        "repeat_penalty": 1.07
+      },
+      "consistency": {
+        "consistency_score": 0.6130662113227338,
+        "length_variance": 0.0,
+        "consistency_scores": [
+          0.5703626890374194,
+          0.673593928022362,
+          0.6758772758095253,
+          0.6109401874716727,
+          0.5345569762726895
+        ],
+        "length_variances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "stability_score": 0.6130662113227338
+    },
+    {
+      "config": {
+        "temperature": 0.6,
+        "top_p": 0.85,
+        "top_k": 30,
+        "repeat_penalty": 1.05
+      },
+      "consistency": {
+        "consistency_score": 0.722980076232688,
+        "length_variance": 0.0,
+        "consistency_scores": [
+          0.6967663392158867,
+          0.6719899145687318,
+          0.6905293629138851,
+          0.7848790426883916,
+          0.7707357217765445
+        ],
+        "length_variances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "stability_score": 0.722980076232688
+    },
+    {
+      "config": {
+        "temperature": 0.65,
+        "top_p": 0.88,
+        "top_k": 35,
+        "repeat_penalty": 1.08
+      },
+      "consistency": {
+        "consistency_score": 0.7746356247101359,
+        "length_variance": 0.0,
+        "consistency_scores": [
+          0.8123029061374103,
+          0.7552829474485809,
+          0.7673064995353251,
+          0.7379082595215715,
+          0.8003775109077923
+        ],
+        "length_variances": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "stability_score": 0.7746356247101359
+    }
+  ],
+  "nkat_tests": [
+    {
+      "config": {
+        "rank": 4,
+        "gamma": 0.95
+      },
+      "stability": {
+        "nkat_stability": 0.8165977944261072,
+        "rank_contribution": 0.08,
+        "gamma_contribution": 0.025000000000000022,
+        "recommended_adjustments": {
+          "rank": {
+            "current": 4,
+            "recommended": 6,
+            "reason": "Higher rank improves stability"
+          }
+        }
+      }
+    },
+    {
+      "config": {
+        "rank": 6,
+        "gamma": 0.95
+      },
+      "stability": {
+        "nkat_stability": 0.8836753213066227,
+        "rank_contribution": 0.12,
+        "gamma_contribution": 0.025000000000000022,
+        "recommended_adjustments": {}
+      }
+    },
+    {
+      "config": {
+        "rank": 8,
+        "gamma": 0.95
+      },
+      "stability": {
+        "nkat_stability": 0.8393163556712127,
+        "rank_contribution": 0.16,
+        "gamma_contribution": 0.025000000000000022,
+        "recommended_adjustments": {}
+      }
+    },
+    {
+      "config": {
+        "rank": 6,
+        "gamma": 0.93
+      },
+      "stability": {
+        "nkat_stability": 0.8882217676753206,
+        "rank_contribution": 0.12,
+        "gamma_contribution": 0.034999999999999976,
+        "recommended_adjustments": {}
+      }
+    },
+    {
+      "config": {
+        "rank": 6,
+        "gamma": 0.97
+      },
+      "stability": {
+        "nkat_stability": 0.8358432764966036,
+        "rank_contribution": 0.12,
+        "gamma_contribution": 0.015000000000000013,
+        "recommended_adjustments": {
+          "gamma": {
+            "current": 0.97,
+            "recommended": 0.95,
+            "reason": "Lower gamma reduces output variance"
+          }
+        }
+      }
+    }
+  ],
+  "recommendations": {
+    "optimal_config": {
+      "sampling": {
+        "temperature": 0.65,
+        "top_p": 0.88,
+        "top_k": 35,
+        "repeat_penalty": 1.08
+      },
+      "nkat": {
+        "rank": 6,
+        "gamma": 0.93
+      },
+      "expected_stability": 0.8314286961927282
+    },
+    "stability_improvements": [
+      {
+        "category": "temperature",
+        "recommendation": "Use temperature around 0.70 for optimal stability",
+        "impact": "high",
+        "reasoning": "Balanced creativity and consistency"
+      },
+      {
+        "category": "nkat_rank",
+        "recommendation": "Set NKAT rank to 6 for stability",
+        "impact": "medium",
+        "reasoning": "Higher rank provides better parameter stability"
+      },
+      {
+        "category": "reproducibility",
+        "recommendation": "Use fixed seed for reproducible outputs",
+        "impact": "high",
+        "reasoning": "Essential for consistent behavior"
+      }
+    ],
+    "usage_guidelines": {
+      "stable_generation": {
+        "description": "For consistent, stable outputs",
+        "config": {
+          "temperature": 0.65,
+          "top_p": 0.88,
+          "top_k": 35,
+          "repeat_penalty": 1.08
+        },
+        "use_cases": [
+          "Production systems",
+          "Consistent responses",
+          "API services"
+        ]
+      },
+      "creative_generation": {
+        "description": "For creative but controlled outputs",
+        "config": {
+          "temperature": 0.75,
+          "top_p": 0.88,
+          "top_k": 35,
+          "repeat_penalty": 1.08
+        },
+        "use_cases": [
+          "Creative writing",
+          "Story generation",
+          "Brainstorming"
+        ]
+      },
+      "nkat_tuning": {
+        "description": "NKAT parameter optimization",
+        "config": {
+          "rank": 6,
+          "gamma": 0.93
+        },
+        "notes": "Fine-tune based on specific model and use case"
+      }
+    }
+  }
+}

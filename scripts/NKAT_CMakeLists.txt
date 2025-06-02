@@ -1,0 +1,54 @@
+
+# NKAT CUDA Integration for llama.cpp
+# Add this to the main CMakeLists.txt
+
+if(LLAMA_CUBLAS)
+    # Add NKAT CUDA sources
+    set(NKAT_CUDA_SOURCES
+        src/ggml-cuda/nkat-star-gemm.cu
+        src/ggml-cuda/nkat-kernels.cu
+    )
+    
+    # Add NKAT headers
+    set(NKAT_CUDA_HEADERS
+        src/ggml-cuda/nkat-cuda.h
+    )
+    
+    # Set CUDA architecture for RTX3080 (Ampere)
+    set_property(TARGET ggml-cuda PROPERTY CUDA_ARCHITECTURES 86)
+    
+    # Add NKAT CUDA compilation
+    target_sources(ggml-cuda PRIVATE ${NKAT_CUDA_SOURCES})
+    target_include_directories(ggml-cuda PRIVATE src/ggml-cuda)
+    
+    # NKAT-specific CUDA flags
+    target_compile_definitions(ggml-cuda PRIVATE 
+        GGML_CUDA_NKAT_ENABLED
+        NKAT_CUDA_ARCH=86
+    )
+    
+    # Performance optimization flags
+    set_property(TARGET ggml-cuda PROPERTY CUDA_SEPARABLE_COMPILATION ON)
+    target_compile_options(ggml-cuda PRIVATE 
+        $<$<COMPILE_LANGUAGE:CUDA>:
+            --use_fast_math
+            --optimize=3
+            --maxrregcount=128
+            -Xptxas=-v
+        >
+    )
+endif()
+
+# NKAT benchmark target
+if(LLAMA_BUILD_TESTS AND LLAMA_CUBLAS)
+    add_executable(nkat-cuda-benchmark tests/nkat_cuda_benchmark.cpp)
+    target_link_libraries(nkat-cuda-benchmark PRIVATE 
+        ggml-cuda 
+        ${CUDA_LIBRARIES}
+        ${CUDA_CUBLAS_LIBRARIES}
+    )
+    target_include_directories(nkat-cuda-benchmark PRIVATE 
+        src/ggml-cuda
+        ${CUDA_INCLUDE_DIRS}
+    )
+endif()

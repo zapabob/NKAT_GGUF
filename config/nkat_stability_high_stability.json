@@ -1,0 +1,23 @@
+{
+  "stability_level": "high_stability",
+  "nkat_params": {
+    "gamma": 0.97,
+    "rank": 8
+  },
+  "inference_params": {
+    "use_cuda": true,
+    "temperature": 0.7,
+    "top_p": 0.85,
+    "top_k": 30,
+    "repeat_penalty": 1.05,
+    "seed": 42,
+    "max_length": 512,
+    "do_sample": true
+  },
+  "description": "最高安定性 - 一貫した出力が必要",
+  "use_cases": [
+    "API応答",
+    "技術文書",
+    "正式な文書"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "optimal_parameters": {
+    "theta_rank": 2,
+    "theta_gamma": 0.99
+  },
+  "base_model": "C:\\Users\\downl\\Downloads\\EasyNovelAssistant-main\\EasyNovelAssistant-main\\KoboldCpp\\Qwen3-8B-ERP-v0.1.i1-Q6_K.gguf",
+  "optimization_timestamp": "0",
+  "usage_command": "py -3 nkat_inference_engine.py -m output\\qwen3_8b_optimization\\optimal_rank2_gamma0.99.nkat --theta-gamma 0.99 --benchmark"
+}

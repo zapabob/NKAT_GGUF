@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-06-02T12:36:19.453359",
+  "cleaned_directories": [],
+  "preserved_files": [],
+  "relocated_files": [
+    "comprehensive_rtx_benchmark.py -> scripts/benchmark/"
+  ],
+  "deleted_files": [],
+  "created_structure": [
+    "build/ - 統一ビルドディレクトリ",
+    "scripts/setup/ - 環境セットアップスクリプト",
+    "scripts/build/ - ビルドスクリプト",
+    "scripts/benchmark/ - ベンチマークスクリプト",
+    "scripts/optimization/ - 最適化スクリプト",
+    "configs/rtx30/ - RTX30シリーズ設定",
+    "configs/rtx40/ - RTX40シリーズ設定",
+    "docs/setup/ - セットアップドキュメント",
+    "docs/optimization/ - 最適化ガイド",
+    "models/benchmarks/ - ベンチマーク用モデル",
+    "models/production/ - 本番用モデル",
+    "output/benchmarks/ - ベンチマーク結果",
+    "output/logs/ - ログファイル",
+    "backup/ - バックアップ",
+    "tools/ - ユーティリティ",
+    "tests/ - テストファイル"
+  ]
+}

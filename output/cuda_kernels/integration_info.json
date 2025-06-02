@@ -1,0 +1,19 @@
+{
+  "build_timestamp": "2025-06-02T10:19:46.823003",
+  "cuda_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Wed_Jan_15_19:38:46_Pacific_Standard_Time_2025\nCuda compilation tools, release 12.8, V12.8.61\nBuild cuda_12.8.r12.8/compiler.35404655_0\n",
+  "architecture": "sm_86",
+  "build_type": "minimal_functional",
+  "files": {
+    "kernel_object": "output\\cuda_kernels\\nkat_star_gemm_kernels.obj",
+    "interface_object": null,
+    "header_file": "output\\cuda_kernels\\nkat_cuda.h",
+    "test_kernel": "output\\cuda_kernels\\nkat_test_kernel.obj"
+  },
+  "integration_steps": [
+    "1. Copy compiled objects to llama.cpp build directory",
+    "2. Link NKAT objects with llama.cpp",
+    "3. Test basic CUDA functionality",
+    "4. Integrate NKAT STAR operations"
+  ],
+  "notes": "Minimal working version for initial integration testing"
+}

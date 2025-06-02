@@ -1,0 +1,23 @@
+{
+  "stability_level": "balanced_stability",
+  "nkat_params": {
+    "gamma": 0.95,
+    "rank": 6
+  },
+  "inference_params": {
+    "use_cuda": true,
+    "temperature": 0.7,
+    "top_p": 0.85,
+    "top_k": 30,
+    "repeat_penalty": 1.05,
+    "seed": 42,
+    "max_length": 512,
+    "do_sample": true
+  },
+  "description": "バランス安定性 - 推奨設定",
+  "use_cases": [
+    "一般的な文章生成",
+    "コンテンツ作成",
+    "ナラティブ"
+  ]
+}

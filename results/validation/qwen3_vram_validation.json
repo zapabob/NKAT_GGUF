@@ -1,0 +1,42 @@
+{
+  "tests": {
+    "vram": {
+      "test_name": "vram_usage",
+      "cuda_available": true,
+      "measurements": [
+        {
+          "test_id": 0,
+          "sequence_length": 20,
+          "before_inference_gb": 0.0,
+          "peak_memory_gb": 0.0,
+          "after_inference_gb": 0.0,
+          "inference_overhead_gb": 0.0
+        },
+        {
+          "test_id": 1,
+          "sequence_length": 70,
+          "before_inference_gb": 0.0,
+          "peak_memory_gb": 0.0,
+          "after_inference_gb": 0.0,
+          "inference_overhead_gb": 0.0
+        },
+        {
+          "test_id": 2,
+          "sequence_length": 170,
+          "before_inference_gb": 0.0,
+          "peak_memory_gb": 0.0,
+          "after_inference_gb": 0.0,
+          "inference_overhead_gb": 0.0
+        }
+      ],
+      "summary": {
+        "initial_memory_gb": 0.0,
+        "model_loaded_memory_gb": 0.0,
+        "max_peak_memory_gb": 0.0,
+        "avg_inference_overhead_gb": 0.0,
+        "pass_threshold": true,
+        "memory_efficient": true
+      }
+    }
+  }
+}

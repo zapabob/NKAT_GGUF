@@ -1,0 +1,9 @@
+{
+  "optimal_parameters": {
+    "theta_rank": 6,
+    "theta_gamma": 0.9500000000000001
+  },
+  "base_model": "models/demo",
+  "optimization_timestamp": "0",
+  "usage_command": "py -3 nkat_inference_engine.py -m output\\quick_demo\\optimal_rank6_gamma0.95.nkat --theta-gamma 0.9500000000000001 --benchmark"
+}

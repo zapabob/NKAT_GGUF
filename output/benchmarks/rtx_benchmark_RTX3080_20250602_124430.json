@@ -1,0 +1,189 @@
+{
+  "benchmark_info": {
+    "timestamp": "2025-06-02T12:39:00.175402",
+    "gpu_info": {
+      "name": "NVIDIA GeForce RTX 3080",
+      "memory_gb": 10.0,
+      "rtx_series": "RTX30",
+      "gpu_model": "RTX3080",
+      "supported": true
+    },
+    "system_info": {
+      "cpu_count": 12,
+      "memory_gb": 31.873149871826172,
+      "platform": "win32",
+      "python_version": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+      "pytorch_version": "2.5.1+cu121",
+      "cuda_available": true,
+      "cuda_version": "12.1"
+    }
+  },
+  "test_results": [
+    {
+      "test_name": "GPU Memory Benchmark",
+      "allocated_memory_tests": [
+        {
+          "target_gb": 1,
+          "actual_peak_gb": 1.000016212463379,
+          "compute_time_ms": 59.77654457092285,
+          "success": true
+        },
+        {
+          "target_gb": 2,
+          "actual_peak_gb": 2.0000314712524414,
+          "compute_time_ms": 71.80142402648926,
+          "success": true
+        },
+        {
+          "target_gb": 4,
+          "actual_peak_gb": 4.0000319480896,
+          "compute_time_ms": 4056.8177700042725,
+          "success": true
+        },
+        {
+          "target_gb": 6,
+          "actual_peak_gb": 6.000024318695068,
+          "compute_time_ms": 9361.163854598999,
+          "success": true
+        },
+        {
+          "target_gb": 8,
+          "actual_peak_gb": 8.0000319480896,
+          "compute_time_ms": 7942.4920082092285,
+          "success": true
+        }
+      ],
+      "peak_memory_gb": 8.0000319480896,
+      "memory_efficiency": 0.8
+    },
+    {
+      "test_name": "NKAT Performance Test",
+      "configurations": [
+        {
+          "rank": 4,
+          "gamma": 0.95,
+          "throughput_tokens_per_sec": 1853.5660837376324,
+          "memory_usage_gb": 8.0000319480896,
+          "latency_ms": 552.4486064910889,
+          "success": true
+        },
+        {
+          "rank": 6,
+          "gamma": 0.97,
+          "throughput_tokens_per_sec": 157185.4728043273,
+          "memory_usage_gb": 8.0000319480896,
+          "latency_ms": 6.514596939086914,
+          "success": true
+        },
+        {
+          "rank": 8,
+          "gamma": 0.98,
+          "throughput_tokens_per_sec": 204198.45178835467,
+          "memory_usage_gb": 8.0000319480896,
+          "latency_ms": 5.0147294998168945,
+          "success": true
+        }
+      ],
+      "best_config": {
+        "rank": 8,
+        "gamma": 0.98
+      },
+      "throughput_range": {
+        "min": 1853.5660837376324,
+        "max": 204198.45178835467,
+        "avg": 121079.16355880653
+      }
+    },
+    {
+      "test_name": "Context Length Scaling Test",
+      "scaling_results": [
+        {
+          "context_length": 512,
+          "process_time_ms": 7.518768310546875,
+          "memory_usage_gb": 8.0000319480896,
+          "tokens_per_sec": 68096.25976661593,
+          "success": true
+        },
+        {
+          "context_length": 1024,
+          "process_time_ms": 1.0042190551757812,
+          "memory_usage_gb": 8.0000319480896,
+          "tokens_per_sec": 1019697.8385565053,
+          "success": true
+        },
+        {
+          "context_length": 2048,
+          "process_time_ms": 3.506898880004883,
+          "memory_usage_gb": 8.0000319480896,
+          "tokens_per_sec": 583991.7460058468,
+          "success": true
+        },
+        {
+          "context_length": 4096,
+          "process_time_ms": 8.019447326660156,
+          "memory_usage_gb": 8.0000319480896,
+          "tokens_per_sec": 510758.3893447497,
+          "success": true
+        }
+      ],
+      "recommended_context": 0
+    },
+    {
+      "test_name": "Thermal Stability Test",
+      "temperature_readings": [
+        {
+          "timestamp": 0.07544803619384766,
+          "temperature_c": 48,
+          "throughput": 142.20389896592644
+        },
+        {
+          "timestamp": 30.14029836654663,
+          "temperature_c": 60,
+          "throughput": 132.954131930136
+        },
+        {
+          "timestamp": 60.19809675216675,
+          "temperature_c": 63,
+          "throughput": 117.40200414264122
+        },
+        {
+          "timestamp": 90.26080918312073,
+          "temperature_c": 64,
+          "throughput": 124.44159620234386
+        },
+        {
+          "timestamp": 120.322674036026,
+          "temperature_c": 65,
+          "throughput": 124.75250587430475
+        },
+        {
+          "timestamp": 150.379821062088,
+          "temperature_c": 66,
+          "throughput": 117.32318881118881
+        },
+        {
+          "timestamp": 180.44050455093384,
+          "temperature_c": 67,
+          "throughput": 124.77477316674104
+        },
+        {
+          "timestamp": 210.49956703186035,
+          "temperature_c": 68,
+          "throughput": 116.00896141612502
+        },
+        {
+          "timestamp": 240.56321334838867,
+          "temperature_c": 68,
+          "throughput": 117.34616568279104
+        },
+        {
+          "timestamp": 270.62899804115295,
+          "temperature_c": 68,
+          "throughput": 124.50439325575873
+        }
+      ],
+      "performance_degradation": 0.12446568511042515,
+      "thermal_throttling_detected": false
+    }
+  ]
+}

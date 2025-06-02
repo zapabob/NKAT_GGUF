@@ -1,0 +1,8 @@
+{
+  "total_time": 33.71304678916931,
+  "tokens_per_second": 3037.3997532877133,
+  "operations_per_second": 3037.3997532877133,
+  "avg_latency_ms": 0.32922897255048156,
+  "device": "cuda",
+  "theta_enabled": true
+}

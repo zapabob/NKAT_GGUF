@@ -1,0 +1,20 @@
+{
+  "sampling": {
+    "temperature": 0.75,
+    "top_p": 0.85,
+    "top_k": 30,
+    "repeat_penalty": 1.05,
+    "seed": 42
+  },
+  "nkat": {
+    "rank": 6,
+    "gamma": 0.95,
+    "stability_mode": true
+  },
+  "inference": {
+    "use_cuda": true,
+    "batch_size": 1,
+    "max_length": 512,
+    "do_sample": true
+  }
+}
