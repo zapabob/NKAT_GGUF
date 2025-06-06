@@ -288,9 +288,13 @@ class NKATGGUFConverter:
             logger.error(f"❌ 検証エラー: {e}")
             return False
 
-def calculate_tpe_score(perplexity: float, lambda_theta: float) -> float:
-    """TPE (Theta-Perplexity Efficiency) スコア計算"""
-    return (1.0 / perplexity) / np.log10(1.0 + lambda_theta)
+def calculate_tpe_score(perplexity: float, lambda_theta: float, eps: float = 1e-8) -> float:
+    """TPE (Theta-Perplexity Efficiency) スコア計算
+
+    Avoids division by zero when ``lambda_theta`` is zero by adding a small
+    ``eps`` value inside the logarithm argument.
+    """
+    return (1.0 / perplexity) / np.log10(1.0 + lambda_theta + eps)
 
 def main():
     parser = argparse.ArgumentParser(description="NKAT-GGUF Converter")
